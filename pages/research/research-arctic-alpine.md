@@ -1,6 +1,6 @@
 ---
 title: Evolution of the Arctic-Alpine flora
-image: Pulmonaria.jpg
+image: Pulmonaria.jpeg
 order: 4
 ---
 
