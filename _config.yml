@@ -1,10 +1,10 @@
 # Site settings
-name: Andersen Lab
-title: Andersen Lab
-email: lab@andersenlab.org
-description: "The Andersen Lab @ Johns Hopkins University"
+name: Parisod Lab
+title: Parisod Lab
+email: christian.parisod@unifr.ch
+description: "The Parisod Lab @ Johns Hopkins University"
 baseurl: ""
-url: "http://www.andersenlab.org"
+url: "http://www.parisodlab.github.io "
 permalink: /:categories/:title.html
 
 # RSS
@@ -20,7 +20,7 @@ pages_list:
 permalink: pretty
 
 #exclude
-exclude: ["scripts/", "build.sh", "README.md", ".DS_Store", 'assets/less/', 'andersenlabsite.sublime-project', 'andersenlabsite.sublime-workspace']
+exclude: ["scripts/", "build.sh", "README.md", ".DS_Store", 'assets/less/', 'parisodlabsite.sublime-project', 'parisodlabsite.sublime-workspace']
 
 
 
