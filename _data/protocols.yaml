@@ -1,0 +1,51 @@
+- name: 96-Well DNAPrep - Omega Bio-tek
+  file: 96wellDNAPrepOmega.pdf
+  group: DNA Methods
+- name: 96-Well High-multiplexing Tagmentation and Amplification
+  file: 96-well High-multiplexing Tagmentation and Amplification.pdf
+  group: DNA Methods
+- name: Generating Libraries for Whole-Genome Sequencing
+  file: NexteraLibraryGenerationLowMultiplexingTagmentation.pdf
+  group: DNA Methods
+- name: Qiagen Gentra DNA preparation for C. elegans
+  file: PurificationDNAfromnematodes.pdf
+  group: DNA Methods
+- name: DNAEasy Genomic Prep
+  file: DNAEasyGenomicDNAPrep.pdf
+  group: DNA Methods
+- name: 96-Well Quantification Of DNA
+  file: 96-wellDNAQuantification_Synergy4_Qubit_v2.pdf
+  group: DNA Methods
+- name: 96-Well DNAPrep - Gentra Purgene
+  file: 96-wellDNAPrepGentra.pdf
+  group: DNA Methods
+- name: Flow Chart For A Cross
+  file: IntrogressionCrossFlowChart.pdf
+  group: General <em>B. laevigata</em>
+- name: Media and Solutions Recipes
+  file: MediaAndSolutionsRecipes.pdf
+  group: General Laboratory Methods
+- name: How to Dilute DNA Ladder
+  file: HowtodiluteDNAladder.pdf
+  group: General Laboratory Methods
+- name: Autoclave Sterilizing Liquids & Labware
+  file: AutoclaveSterilizingLiquids&Labware.pdf
+  group: General Laboratory Methods
+- name: Washing Labware
+  file: WashingProtocols.pdf
+  group: General Laboratory Methods
+- name: Pouring NGMA Plates Using the Automatic Plate Pourer
+  file: PlatePouring.pdf
+  group: General Laboratory Methods
+- name: Steps to Freeze Wild Isolate DNA Samples
+  file: 20221130_StepstoFreezeWildIsolateDNASamples.pdf
+  group: General <em>B. laevigata</em>
+- name: Image Xpress Protocol
+  file: 20221202_ImageXpressProtocol.pdf
+  group: General Laboratory Methods
+- name: DNAEasy Genomic Prep - QiaCube
+  file: 20221208_DNAEasyGenomicDNAPrep(QiaCube).pdf
+  group: DNA Methods
+- name: RNA Isolation Protocol
+  file: 20230728_RNAIsolationProtocol.pdf
+  group: RNA Methods

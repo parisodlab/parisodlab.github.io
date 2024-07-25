@@ -1,0 +1,66 @@
+---
+layout: page
+title: Research
+permalink: Research/
+menu: research
+---
+
+<img src="/assets/img/research/CentralQuestions3.jpg" class="img-responsive" />
+
+<p>
+What processes cause species properties to change over space and time?
+
+What is the role of genomic (endogenous) and ecological (exogenous) constraints in shaping biodiversity?
+
+To address these central questions, we use approaches from ecological genomics to assess stochastic, recombinational, selective and mutational drivers of the evolutionary ecology of plants at multiple scales. We combine approaches from genomics and ecology to characterize underpinnings of adaptation and speciation under changing environments.
+
+As accumulating evidence points to significant genome dynamics at the origin of plant evolutionary-relevant variation, our interest is to integrate genomic and environmental drivers of diversification. We particularly address how gene duplication and transposition interact within and among species evolving across natural landscapes.
+
+We rely on high-throughput genomics in natural and experimental populations to …
+
+… infer population dynamics and adaptation using population/landscape genetics.
+
+… assess genome dynamics with a focus on transposable elements and duplicated genes.
+
+… integrate genomic and ecological changes using polyploid speciation as a model process.
+
+Our current projects thus combine high-throughput sequencing technologies (DNA/RNA) and computational procedures with experimental and empirical field studies of alpine plant populations.
+
+</p>
+
+
+{% assign pages = site.pages | sort:"order"  %}
+
+<ul>
+{% for page in pages %}
+	{% if page.path contains 'research' and page.path contains '.md' %}
+	<li><a href="#{{ page.title }}">{{ page.title }}</a></li>
+	{% endif %}
+{% endfor %}
+</ul>
+
+
+{% for page in pages %}
+	{% if page.path contains 'research' and page.path contains '.md' %}
+	<div class="row">
+			<div class="col-md-4">
+			{% if page.image %}
+				<img src="/assets/img/research/{{ page.image }}" style= "margin-top:25px" class = "hidden-sm hidden-xs img-responsive img-thumbnail" alt = "{{ page.title }}" />
+			{% endif %}
+			</div>
+			<div class="col-md-8">
+			<a name="{{ page.title }}"></a>
+			<h3>{{ page.title }}</h3>
+			{% if page.image %}
+			<img src="/assets/img/research/{{ page.image }}" style= "margin-top:25px; margin-bottom: 25px;" class="hidden-md hidden-lg img-responsive img-thumbnail" alt = "{{ page.title }}" />
+			{% endif %}
+				{{ page.content }}
+				<hr />
+			</div>
+	</div>
+	{% endif %}
+{% endfor %}
+
+
+
+

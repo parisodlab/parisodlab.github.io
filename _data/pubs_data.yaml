@@ -1,0 +1,49 @@
+- Abstract: The consequences of whole-genome duplication (WGD) remain elusive. A new
+    study by Ebadi et al. simulating duplicated gene networks predicts that WGD immediately
+    generates autopolyploids with extreme phenotypes and increases phenotypic variance.
+    Such theoretical work calls for new experimental studies addressing to what extent
+    WGD may be beneficial under environmental changes.
+  Authors:
+  - Parisod C
+  DOI: 10.1016/j.tig.2023.12.004
+  Date_Published: '2024'
+  Journal: Trends Genet
+  PDF: 2024Trends_Genetics.pdf
+  PMC: null
+  PMID: '38272738'
+  Title: Duplicated gene networks promote 'hopeful' phenotypic variation
+- Abstract: "Recombination and selection drive the extent of linkage disequilibrium\
+    \ (LD) among loci and therefore affect the reshuffling of adaptive genetic variation.\
+    \ However, it is poorly known to what extent the enrichment of transposable elements\
+    \ (TEs) in recombinationally-inert regions reflects their inefficient removal\
+    \ by purifying selection and whether the presence of polymorphic TEs can modify\
+    \ the local recombination rate. In this study, we investigate how TEs and recombination\
+    \ interact at fine scale along chromosomes and possibly support linked selection\
+    \ in natural populations. Whole-genome sequencing data of 304 individuals from\
+    \ nearby alpine populations of Arabis alpina were used to show that the density\
+    \ of polymorphic TEs is specifically correlated with local LD along chromosomes.\
+    \ Consistent with TEs modifying recombination, the characterization of 28 such\
+    \ LD blocks of up to 5.5\_Mb in length revealed strong evidence of selective sweeps\
+    \ at a few loci through either site frequency spectrum or haplotype structure.\
+    \ A majority of these blocks were enriched in genes related to ecologically relevant\
+    \ functions such as responses to cold, salt stress or photoperiodism. In particular,\
+    \ the S-locus (i.e., supergene responsible for strict outcrossing) was identified\
+    \ in a LD block with high levels of polymorphic TEs and evidence of selection.\
+    \ Another such LD block was enriched in cold-responding genes and presented evidence\
+    \ of adaptive loci related to photoperiodism and flowering being increasingly\
+    \ linked by polymorphic TEs. These results are consistent with the hypothesis\
+    \ that TEs modify recombination landscapes and thus interact with selection in\
+    \ driving blocks of linked adaptive loci in natural populations."
+  Authors:
+  - Choudhury RR
+  - Rogivue A
+  - Gugerli F
+  - Parisod C
+  DOI: 10.1111/mec.15014
+  Date_Published: '2019'
+  Journal: Mol Ecol
+  PDF: null
+  PMC: null
+  PMID: '30633406'
+  Title: Impact of polymorphic transposable elements on linkage disequilibrium along
+    chromosomes

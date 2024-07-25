@@ -1,0 +1,32 @@
+---
+layout: default
+menu: people
+---
+
+<h1>{{ page.album }}</h1>
+<hr />
+<div class="row">
+	<div class="col-sm-8">
+{{ content }}
+<div class="row" data-no-instant>
+{% capture album_name %}/people/albums/{{ page.date | date: "%Y-%m-%d" }}-{{ page.album }}/{% endcapture %}
+{% for f in site.static_files reversed %}
+{% if f.path contains album_name %}
+{% if f.path contains 'thumb_' %}
+<div class="col-sm-4">
+        <a data-lightbox="{{ page.album }}" href="{{ f.path | replace: 'thumb_', '' }}" data-title="{{ p|replace:".jpg","" }}" ><img class="thumbnail img-responsive" src="{{ f.path }}" /></a>
+</div>
+{% cycle '', '',  '</div><div class="row" data-no-instant>' %}
+  {% endif %}
+  {% endif %}
+{% endfor %}
+
+</div>
+
+</div>
+<div class="col-sm-4">
+	{% include photo_albums.html %}
+</div>
+</div>
+
+

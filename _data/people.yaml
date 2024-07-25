@@ -1,0 +1,67 @@
+- first_name: Christian
+  last_name: Parisod
+  title: Principal Investigator
+  # Specify names here to highlight within publications
+  pub_names: ["C Parisod", "Parisod C", "C. Parisod", "Christian Parisod"]
+  photo: Erik_C_Andersen.jpg
+  cv: https://github.com/AndersenLab/cv/blob/master/Andersen_CV.pdf?raw=true
+  email: christian.parisod@unifr.ch
+
+#========================#
+# Senior Scientist       #
+#========================#
+- first_name: Rimjhim Roy
+  last_name: Choudhury
+  title: Senior Researcher and System Administrator
+  pub_names: ["Choudhury RR", "RR Choudhury"]
+  description: I am interested in transposable elements and local recombination rate evolution.
+  photo: rimjhim.jpg
+  email: rimjhim.choudhury@unifr.ch
+
+#========================#
+# Post-Doc               #
+#========================#
+
+- first_name: Sandra
+  last_name: Gruning
+  title: Postdoctoral Researcher
+  pub_names: ["Gruning S", "S Gruning"]
+  description: I am interested in population genetics.
+  photo: sandra.jpg
+  email: sandra.gruning@unifr.ch
+  
+#================#
+# Research Staff #
+#================#
+
+
+  
+#===================#
+# Graduate Students #
+#===================#
+
+
+#========================#
+# Undergraduates         #
+#========================#
+
+
+#========================#
+# Former Members         #
+#========================#
+
+- first_name: Manuel
+  last_name: Poretti
+  former: true
+  title: Postdoctoral Researcher
+  photo: manuel_poretti.jpg
+  email: 
+  current_status: Postdoctoral Researcher in Australia
+  departure: 2023-09-01
+
+- first_name: Marc
+  last_name: Beringer
+  title: Graduate Student
+  former: true
+  photo: marc_beringer.jpg
+  email: 

@@ -1,0 +1,44 @@
+---
+layout: page
+title: Funding
+permalink: Research/Funding/
+menu: research
+---
+
+<div class="row">
+	<div class="col-sm-12">
+
+<h3>We would like to thank the following organizations for their generous support!</h3>
+
+<br /><br /><br />
+</div>
+</div>
+<h4>Current Support:</h4>
+<div class="row">
+{% for p in site.static_files %}
+{% if p.path contains "/funding/current" %}
+    <div class="col-sm-4">
+        {% if site.data.funding_links contains p.basename %}
+            <a href='{{ site.data.funding_links[p.basename] }}'><img src='{{ p.path }}' title='{{ p.basename }}' class='img-responsive funding'></a>
+        {% else %}
+            <img src='{{ p.path }}' title='{{ p.basename }}' class='img-responsive funding'>
+        {% endif %}
+    </div>
+{% endif %}
+{% endfor %}
+</div>
+
+<h4>Past Support: </h4>
+<div class="row">
+{% for p in site.static_files %}
+{% if p.path contains "/funding/past" %}
+    <div class="col-sm-4">
+        {% if site.data.funding_links contains p.basename %}
+            <a href='{{ site.data.funding_links[p.basename] }}'><img src='{{ p.path }}' title='{{ p.basename }}' class='img-responsive funding'></a>
+        {% else %}
+            <img src='{{ p.path }}' title='{{ p.basename }}' class='img-responsive funding'>
+        {% endif %}
+    </div>
+{% endif %}
+{% endfor %}
+</div>

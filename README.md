@@ -1,0 +1,1 @@
+[Parisod Lab](http://parisodlab.github.io) is a computational biology lab at University of Fribourg. We are interested in the evolution of polyploid plant genomes and the role of transposable elements in shaping them. 

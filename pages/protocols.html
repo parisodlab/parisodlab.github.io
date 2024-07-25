@@ -1,0 +1,21 @@
+---
+layout: page
+title: Protocols
+permalink: Research/Protocols/
+menu: research
+published: true
+---
+
+{% assign protocol_groups = site.data.protocols| group_by:"group" | sort: 'group' %}
+
+{% for group in protocol_groups %}
+	<div class="col-sm-12">
+	<h3>{{ group.name }}</h3>
+	<ul>
+		{% assign items = group.items | sort: 'Name' %}
+		{% for protocol in items  %}
+		<li><a href="/Protocols/{{ protocol.file }}">{{ protocol.name }}</a></li>
+		{% endfor %}
+	</ul>
+	</div>
+{% endfor %}
