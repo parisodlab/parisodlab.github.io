@@ -1,73 +1,73 @@
 ---
 layout: page
-title: Discovering mechanisms of genome evolution and ecological responses
+title: Discovering Mechanisms of Genome Evolution and Ecological Responses
 post_header: false
 ---
 
-<div class="row">
+<div class="container">
+  <div class="row">
     <div class="col-md-12">
-        <div class="jumbotron">
-            <div class="row">
-                <div class="col-md-4">
-            <img src="./assets/img/logo.png" alt="Parisod Lab Logo" class="pull-left hidden-xs" style="margin-right:20px; width: 250px;"/>
-            <p style="text-align:center; position:relative; left:10px;" class="visible-xs"><img src="./assets/img/logo.png" alt="Parisod Lab Logo"  style="margin-right:20px; max-height:150px; margin: auto; display: inline;" class=" img-responsive"/></p>
-        </div>
-          <h1 class="hidden-xs">Parisod Lab</h1>
-          <h1 class="visible-xs" style="text-align:center">Parisod Lab</h1>
-          <p class="hidden-xs" >Discovering mechanisms of genome evolution and ecological responses</p>
-          <p class="visible-xs" style="text-align:center">Discovering mechanisms of genome evolution and ecological responses</p>
-        </div>
-    </div>
-    </div>
-</div>
-
-
-
-<div class="row">
-  <div class="col-md-6">
-    <div class="row">
-      <div class="col-sm-12">
-          <h4>Research</h4>
-              <div class="row">
-                <div class="col-md-6">
-              <a href="/Research/" class="thumbnail" ><img src="/assets/img/research/worms_drugs2.jpg" class="img-responsive" /></a>
-              </div>
-              <div class="col-md-6">
-              <p style="text-align:left">We study the interactions between genome dynamics and adaptive processes driven by environmental factors</p>
-
-              <strong><p>Learn more about <a href="/Research">our research</a>.</p></strong>
-    
-              </div>
-
-              </div>
-                          <hr />
+      <div class="jumbotron text-center">
+        <img src="./assets/img/logo.png" alt="Parisod Lab Logo" class="img-responsive center-block" style="max-width: 250px; margin-bottom: 20px;" />
+        <h1>Parisod Lab</h1>
+        <p>Discovering mechanisms of genome evolution and ecological responses</p>
       </div>
     </div>
-    <div class="row">
-        <div class="col-sm-6">
-            <h4>Join Us!</h4>
-            <a href="/Join-Us/" class="thumbnail">
-            <img src="/people/labphoto.jpg" />
-            </a>
-            <p style="text-align:left">Learn about positions for undergrads, graduate students, and post-docs. </p>
-        </div>
-    </div>
   </div>
-<div class="col-md-6 col-sm-12 col-sm-12">
-<h4>News &amp; Updates</h4>
-<div class="list-group" style="margin-bottom:0px;">
-      {% for post in site.tags.news limit:6 %}
-      {% if post.category != "album" %}
-          <a href="{{ post.url }}" class="list-group-item ">
-            <h4 class="list-group-item-heading"><small class="pull-right">{{ post.date | date_to_string }}</small>{{ post.title }}</h4>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="section">
+        <h4>Research</h4>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="/Research/" class="thumbnail">
+              <img src="/assets/img/research/worms_drugs2.jpg" class="img-responsive" alt="Research Image" />
+            </a>
+          </div>
+          <div class="col-md-6">
+            <p>We study the interactions between genome dynamics and adaptive processes driven by environmental factors.</p>
+            <p><strong>Learn more about <a href="/Research">our research</a>.</strong></p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="section">
+        <h4>Join Us!</h4>
+        <a href="/Join-Us/" class="thumbnail">
+          <img src="/people/labphoto.jpg" class="img-responsive" alt="Lab Photo" />
+        </a>
+        <p>Learn about positions for undergrads, graduate students, and post-docs.</p>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="section">
+        <h4>News &amp; Updates</h4>
+        <div class="list-group">
+          {% for post in site.tags.news limit:6 %}
+          {% if post.category != "album" %}
+          <a href="{{ post.url }}" class="list-group-item">
+            <h4 class="list-group-item-heading">
+              <small class="pull-right">{{ post.date | date_to_string }}</small>{{ post.title }}
+            </h4>
             <p class="list-group-item-text">{{ post.subtitle }}</p>
           </a>
-    {% endif %}
-    {% endfor %}
-</div>
-<br />
-  <div class="pull-left"><a href="/feeds/rss.xml" type="application/rss+xml" ><img src="/assets/img/rss.png" /></a> <a href="/feeds/rss.xml" type="application/rss+xml" class="btn btn-warning btn-xs">Subscribe RSS</a></div>
-  <div class="pull-right"><a href="/archive/">View Full Archive <i class="glyphicon glyphicon-arrow-right"></i></a></div>
-  <br /><br />
-</div>
+          {% endif %}
+          {% endfor %}
+        </div>
+        <div class="clearfix">
+          <div class="pull-left">
+            <a href="/feeds/rss.xml" type="application/rss+xml">
+              <img src="/assets/img/rss.png" alt="RSS Feed" />
+            </a>
+            <a href="/feeds/rss.xml" type="application/rss+xml" class="btn btn-warning btn-xs">Subscribe RSS</a>
+          </div>
+          <div class="pull-right">
+            <a href="/archive/">View Full Archive <i class="glyphicon glyphicon-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
