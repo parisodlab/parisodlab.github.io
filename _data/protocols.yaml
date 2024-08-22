@@ -1,20 +1,23 @@
-- name: 96-Well DNAPrep - Omega Bio-tek
-  file: 96wellDNAPrepOmega.pdf
+- name: HMW DNA Extraction protocol
+  file: HMW_extraction_protocol_mix.pdf
   group: DNA Methods
-- name: 96-Well High-multiplexing Tagmentation and Amplification
-  file: 96-well High-multiplexing Tagmentation and Amplification.pdf
+- name: ONT HMW DNA Extraction protocol
+  file: ONT_gDNA_Arabidopsis_leaves_V2.pdf
   group: DNA Methods
-- name: Generating Libraries for Whole-Genome Sequencing
-  file: NexteraLibraryGenerationLowMultiplexingTagmentation.pdf
+- name: EDTA recepie
+  file: 0.5M EDTA pH 8.0.pdf
   group: DNA Methods
-- name: DNAEasy Genomic Prep
-  file: DNAEasyGenomicDNAPrep.pdf
+- name: CTAB recepie
+  file: 2% CTAB buffer recipe_0.pdf
   group: DNA Methods
-- name: 96-Well Quantification Of DNA
-  file: 96-wellDNAQuantification_Synergy4_Qubit_v2.pdf
+- name: Tris-Hcl recepie
+  file: 1M-Tris-HCl-recipe.pdf
   group: DNA Methods
-- name: 96-Well DNAPrep - Gentra Purgene
-  file: 96-wellDNAPrepGentra.pdf
+- name: ONT size selection protocol
+  file: ONT size selection.pdf
+  group: DNA Methods
+- name: TE-buffer recepie
+  file: TE Buffer pH 8.0.pdf
   group: DNA Methods
 - name: How to Dilute DNA Ladder
   file: HowtodiluteDNAladder.pdf
@@ -25,9 +28,6 @@
 - name: Washing Labware
   file: WashingProtocols.pdf
   group: General Laboratory Methods
-- name: DNAEasy Genomic Prep - QiaCube
-  file: 20221208_DNAEasyGenomicDNAPrep(QiaCube).pdf
-  group: DNA Methods
-- name: RNA Isolation Protocol
-  file: 20230728_RNAIsolationProtocol.pdf
+- name: miRNeasy Mini Kit Manuel
+  file: HB-2672-003_HB_miRNeasy_TC_Adv_Mini_Kit_1120_WW.pdf
   group: RNA Methods
