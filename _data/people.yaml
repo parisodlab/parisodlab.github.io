@@ -1,6 +1,6 @@
 - first_name: Christian
   last_name: Parisod
-  title: Principal Investigator
+  title: PI
   # Specify names here to highlight within publications
   pub_names: ["C Parisod", "Parisod C", "C. Parisod", "Christian Parisod"]
   photo: christian_parisod.jpg
