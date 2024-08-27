@@ -3,8 +3,8 @@
   title: Principal Investigator
   # Specify names here to highlight within publications
   pub_names: ["C Parisod", "Parisod C", "C. Parisod", "Christian Parisod"]
-  photo: Erik_C_Andersen.jpg
-  cv: https://github.com/AndersenLab/cv/blob/master/Andersen_CV.pdf?raw=true
+  photo: christian_parisod.jpg
+  cv: parisod_cv.pdf
   email: christian.parisod@unifr.ch
 
 #========================#
@@ -16,6 +16,7 @@
   pub_names: ["Choudhury RR", "RR Choudhury"]
   description: I am interested in transposable elements and local recombination rate evolution.
   photo: rimjhim.jpg
+  cv: https://rimjhimroy.github.io/cv/index.html
   email: rimjhim.choudhury@unifr.ch
 
 #========================#
