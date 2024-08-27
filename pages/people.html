@@ -19,7 +19,7 @@ menu: people
 <hr />
 
 
-{% assign people = site.data.people | sort:'last_name' %}
+{% assign people = site.data.people | sort:'title' %}
 {% for m in people %}
 	{% if m.former != true %}
 	<div class="member">
