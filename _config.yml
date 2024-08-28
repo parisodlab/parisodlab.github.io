@@ -2,9 +2,9 @@
 name: Parisod Lab
 title: Parisod Lab
 email: christian.parisod@unifr.ch
-description: "The Parisod Lab @ Johns Hopkins University"
+description: "The Parisod Lab @ University of Fribourg"
 baseurl: ""
-url: "http://www.parisodlab.github.io "
+url: "http://www.parisodlab.github.io"
 permalink: /:categories/:title.html
 
 # RSS

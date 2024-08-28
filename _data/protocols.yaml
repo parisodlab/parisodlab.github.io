@@ -19,15 +19,9 @@
 - name: TE-buffer recepie
   file: TE Buffer pH 8.0.pdf
   group: DNA Methods
-- name: How to Dilute DNA Ladder
-  file: HowtodiluteDNAladder.pdf
-  group: General Laboratory Methods
-- name: Autoclave Sterilizing Liquids & Labware
-  file: AutoclaveSterilizingLiquids&Labware.pdf
-  group: General Laboratory Methods
-- name: Washing Labware
-  file: WashingProtocols.pdf
-  group: General Laboratory Methods
+- name: Flow cytometry protocol
+  file: flow_cytometry_manual.pdf
+  group: DNA Methods
 - name: miRNeasy Mini Kit Manuel
   file: HB-2672-003_HB_miRNeasy_TC_Adv_Mini_Kit_1120_WW.pdf
   group: RNA Methods
