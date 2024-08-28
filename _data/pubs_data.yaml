@@ -1,217 +1,1584 @@
-- Authors:
-  - Zhang G
-  - Felix MA
-  - Andersen EC
-  Corresponding_Authors:
-  - Andersen EC: erik.andersen@gmail.com
-  DOI: 10.1101/2024.01.15.575659
-  Date_Published: 2024 August 3
-  Journal: Science Advances
-  PDF: 2024ZhangBioRxiv
-  Title: Transposon-mediated genic rearrangements underlie variation in small RNA pathways
-- Authors:
-  - Collins JB
-  - Shaver AO
-  - Schaye ES
-  - Volpe T
-  - Nunn LR
-  - Zamanian M
-  - Andersen EC
-  Corresponding_Authors:
-  - Andersen EC: erik.andersen@gmail.com
-  DOI: 10.17912/micropub.biology.001197
-  Date_Published: 2024 August 3
-  Journal: microPublication Biology
-  PDF: 2024CollinsMicropub
-  Title: Lack of correlation between parasite burden and key weight metrics in poultry infected with intestinal ascarids
-- Authors:
-  - Collins JB
-  - Stone S
-  - Koury E
-  - Paredes A
-  - Shao F
-  - Lovato C
-  - Chen M
-  - Shi R
-  - Li A
-  - Candal I
-  - Al Moutaa K
-  - Moya N
-  - Andersen EC
-  Corresponding_Authors:
-  - Andersen EC: erik.andersen@gmail.com
-  DOI: 10.1016/j.ijpddr.2024.100556
-  Date_Published: 2024 July 7
-  Journal: IJP DDR
-  PDF: 2024CollinsIJPDDR
-  Title: Quantitative tests of albendazole resistance in <em>Caenorhabditis elegans</em> beta-tubulin mutants
-- Authors:
-  - Yang H
-  - Lee D
-  - Kim H
-  - Cook DE
-  - Paik YK
-  - Andersen EC
-  - Lee J
-  Corresponding_Authors:
-  - Lee J: elegans@snu.ac.kr
-  DOI: 10.1073/pnas.2320796121
-  Date_Published: 2024 July 3
-  Journal: PNAS
-  PDF: 2024YangPNAS
-  Title: Glial expression of a steroidogenic enzyme underlies natural variation in hitchhiking behavior
-- Authors:
-  - Knox J
-  - Burns AR
-  - Cooke B
-  - Cammalleri SR
-  - Kitner M
-  - Ching J
-  - Castelli JMP
-  - Puumala E
-  - Snider J
-  - Koury E
-  - Collins JB
-  - Geissah S
-  - Dowling JJ
-  - Andersen EC
-  - Stagljar I
-  - Cowen LE
-  - Lautens M
-  - Zasada I
-  - Roy PJ
-  Corresponding_Authors:
-  - Roy PJ: peter.roy@utoronto.ca 
-  DOI: 10.1038/s41467-024-49738-4
-  Date_Published: 2024 July 2
-  Journal: Nature Communications
-  PDF: 2024KnoxNatureCommunications
-  Title: Diverse Plant-Parasitic Nematodes are Selectively Killed by Oxadiazole Thioether Pro-Nematicide
-- Authors:
-  - Shaver AO
-  - Miller IR
-  - Schaye ES
-  - Moya ND
-  - Collins JB
-  - Wit J
-  - Blanco AH
-  - Shao FM
-  - Andersen EJ
-  - Khan SA
-  - Paredes G
-  - Andersen EC
-  Corresponding_Authors:
-  - Andersen EC: erik.andersen@gmail.com
-  DOI: 10.1371/journal.ppat.1012245
-  Date_Published: 2024 May 20
-  Journal: PLoS Pathogens
-  PDF: 2024ShaverPLoSPathogens
-  Title: Quantifying the fitness effects of resistance alleles with and without anthelmintic selection pressure using <em>Caenorhabditis elegans</em>
-- Authors:
-  - Lee H
-  - Boor SA
-  - Hilbert ZA
-  - Meisel JD
-  - Park J
-  - Wang Y
-  - McKeown R
-  - Fischer SEJ
-  - Andersen EC
-  - Kim DH
-  Corresponding_Authors:
-  - Kim DH: Dennis.Kim@childrens.harvard.edu
-  DOI: 10.1126/sciadv.adk9481
-  Date_Published: 2024 May 2
-  Journal: Science Advances
-  PDF: 2024LeeScienceAdvances
-  Title: Genetic Variants That Modify the Neuroendocrine Regulation of Foraging Behavior in <em>C. elegans</em>
-- Authors:
-  - Lyu H
-  - Moya N
-  - Andersen EC
-  - Chamberlin HM
-  Corresponding_Authors:
-  - Chamberlin HM: chamberlin.27@osu.edu
-  DOI: 10.1093/genetics/iyae064
-  Date_Published: 2024 April 16
-  Journal: Genetics
-  PDF: 2024IyuGenetics
-  Title: Gene duplication and evolutionary plasticity of <em>lin-12</em>/Notch gene function in <em>Caenorhabditis</em>
-- Authors:
-  - Wolstenholme AJ
-  - Andersen EC
-  - Choudhary S
-  - Ebner F
-  - Hartmann S
-  - Holden-Dye L
-  - Kashyap SS
-  - Krucken J
-  - Martin RJ
-  - Midha A
-  - Nejsum P
-  - Neveu C
-  - Robertson AP
-  - von Samson-Himmelstjerna G
-  - Walker R
-  - Wang J
-  - Whitehead BJ
-  - Williams PDE
-  Corresponding_Authors:
-  - Wolstenholme AJ: adrianw1906@gmail.com
-  DOI: 10.1016/bs.apar.2023.12.002
-  Date_Published: 2024 February 20
-  Journal: Advances in Parasitology
-  PDF: 2024WolstenholmeAdvances
-  Title: Getting around the roundworms, Identifying knowledge gaps and research priorities for the ascarids
-- Authors:
-  - Zhang G
-  - Felix MA
-  - Andersen EC
-  Corresponding_Authors:
-  - Andersen EC: erik.andersen@gmail.com
-  DOI: 10.1101/2024.01.15.575659
-  Date_Published: 2024 January 15
-  Journal: bioRxiv
-  PDF: 2024ZhangBioRxiv
-  Title: Transposon-mediated genic rearrangements underlie variation in small RNA pathways
-- Authors:
-  - Crombie TA
-  - McKeown R
-  - Moya ND
-  - Evans KS
-  - Widmayer SJ
-  - LaGrassa V
-  - Roman N
-  - Tursunova O
-  - Zhang G
-  - Gibson SB
-  - Buchanan CM
-  - Roberto NM
-  - Viera R
-  - Tanny RE
-  - Andersen EC
-  Corresponding_Authors:
-  - Andersen EC: erik.andersen@gmail.com
-  DOI: 10.1093/nar/gkad887
-  Date_Published: 2023 October 19
-  Journal: Nucleic Acids Research
-  PDF: 2023CrombieNAR
-  Title: CaeNDR, the <em>Caenorhabditis</em> Natural Diversity Resource
-- Authors:
-  - Moya ND
-  - Stevens L
-  - Miller IR
-  - Galindo JL
-  - Bardas AD
-  - Yeo C
-  - Rozenich AJ
-  - Xu M
-  - Koh ESH
-  - Andersen EC
-  Corresponding_Authors:
-  - Andersen EC: erik.andersen@gmail.com
-  DOI: 10.1186/s12864-023-09582-0
-  Date_Published: 2023 August 12
-  Journal: BMC Genomics
-  PDF: 2023MoyaBMCGenomics
-  Title: Novel and improved <em>Caenorhabditis briggsae</em> gene models generated by community curation
+- Abstract: The molecular underpinnings and consequences of cycles of whole-genome
+    duplication (WGD) and subsequent gene loss through subgenome fractionation remain
+    largely elusive. Endogenous drivers, such as transposable elements (TEs), have
+    been postulated to shape genome-wide dominance and biased fractionation, leading
+    to a conserved least-fractionated (LF) subgenome and a degenerated most-fractionated
+    (MF) subgenome. In contrast, the role of exogenous factors, such as those induced
+    by environmental stresses, has been overlooked. In this study, a chromosome-scale
+    assembly of the alpine buckler mustard (Biscutella laevigata; Brassicaceae) that
+    underwent a WGD event about 11 million years ago is coupled with transcriptional
+    responses to heat, cold, drought, and herbivory to assess how gene expression
+    is associated with differential gene retention across the MF and LF subgenomes.
+    Counteracting the impact of TEs in reducing the expression and retention of nearby
+    genes across the MF subgenome, dosage balance is highlighted as a main endogenous
+    promoter of the retention of duplicated gene products under purifying selection.
+    Consistent with the "turn a hobby into a job" model, about one-third of environment-responsive
+    duplicates exhibit novel expression patterns, with one copy typically remaining
+    conditionally expressed, whereas the other copy has evolved constitutive expression,
+    highlighting exogenous factors as a major driver of gene retention. Showing uneven
+    patterns of fractionation, with regions remaining unbiased, but with others showing
+    high bias and significant enrichment in environment-responsive genes, this mesopolyploid
+    genome presents evolutionary signatures consistent with an interplay of endogenous
+    and exogenous factors having driven gene content following WGD-fractionation cycles.
+  Authors:
+  - Beringer M
+  - Choudhury RR
+  - "Mand\xE1kov\xE1 T"
+  - "Gr\xFCnig S"
+  - Poretti M
+  - Leitch IJ
+  - Lysak MA
+  - Parisod C
+  DOI: 10.1093/molbev/msae155
+  Date_Published: 2024
+  Journal: Mol Biol Evol
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11306978&blobtype=pdf
+  PMC: '11306978'
+  PMID: '39073781'
+  Title: Biased Retention of Environment-Responsive Genes Following Genome Fractionation
+- Abstract: "Landscape genomic analyses associating genetic variation with environmental\
+    \ variables are powerful tools for studying molecular signatures of species' local\
+    \ adaptation and for detecting candidate genes under selection. The development\
+    \ of landscape genomics over the past decade has been spurred by improvements\
+    \ in resolutions of genomic and environmental datasets, allegedly increasing the\
+    \ power to identify putative genes underlying local adaptation in non-model organisms.\
+    \ Although these associations have been successfully applied to numerous species\
+    \ across a diverse array of taxa, the spatial scale of environmental predictor\
+    \ variables has been largely overlooked, potentially limiting conclusions to be\
+    \ reached with these methods. To address this knowledge gap, we systematically\
+    \ evaluated performances of genotype-environment association (GEA) models using\
+    \ predictor variables at multiple spatial resolutions. Specifically, we used multivariate\
+    \ redundancy analyses to associate whole-genome sequence data from the plant Arabis\
+    \ alpina L. collected across four neighboring valleys in the western Swiss Alps,\
+    \ with very high-resolution topographic variables derived from digital elevation\
+    \ models of grain sizes between 0.5\u2009m and 16\u2009m. These comparisons highlight\
+    \ the sensitivity of landscape genomic models to spatial resolution, where the\
+    \ optimal grain sizes were specific to variable type, terrain characteristics,\
+    \ and study extent. To assist in selecting variables at appropriate spatial resolutions,\
+    \ we demonstrate a practical approach to produce, select, and integrate multiscale\
+    \ variables into GEA models. After generalizing fine-grained variables to multiple\
+    \ spatial resolutions, a forward selection procedure is applied to retain only\
+    \ the most relevant variables for a particular context. Depending on the spatial\
+    \ resolution, the relevance for topographic variables in GEA studies calls for\
+    \ integrating multiple spatial scales into landscape genomic models. By carefully\
+    \ considering spatial resolutions, candidate genes under selection by a more realistic\
+    \ range of pressures can be detected for downstream analyses, with important applied\
+    \ implications for experimental research and conservation management of natural\
+    \ populations."
+  Authors:
+  - Guillaume AS
+  - Leempoel K
+  - Rogivue A
+  - Gugerli F
+  - Parisod C
+  - Joost S
+  DOI: 10.1111/eva.13737
+  Date_Published: 2024
+  Journal: Evol Appl
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11212006&blobtype=pdf
+  PMC: '11212006'
+  PMID: '38948540'
+  Title: Integrating very high resolution environmental proxies in genotype-environment
+    association studies
+- Abstract: Lateral gene transfer (LGT) is the movement of DNA between organisms without
+    sexual reproduction. The acquired genes represent genetic novelties that have
+    independently evolved in the donor's genome. Phylogenetic methods have shown that
+    LGT is widespread across the entire grass family, although we know little about
+    the underlying dynamics. We identify laterally acquired genes in five de novo
+    reference genomes from the same grass genus (four Alloteropsis semialata and one
+    Alloteropsis angusta). Using additional resequencing data for a further 40 Alloteropsis
+    individuals, we place the acquisition of each gene onto a phylogeny using stochastic
+    character mapping, and then infer rates of gains and losses. We detect 168 laterally
+    acquired genes in the five reference genomes (32-100 per genome). Exponential
+    decay models indicate that the rate of LGT acquisitions (6-28 per Ma) and subsequent
+    losses (11-24% per Ma) varied significantly among lineages. Laterally acquired
+    genes were lost at a higher rate than vertically inherited loci (0.02-0.8% per
+    Ma). This high turnover creates intraspecific gene content variation, with a preponderance
+    of them occurring as accessory genes in the Alloteropsis pangenome. This rapid
+    turnover generates standing variation that can ultimately fuel local adaptation.
+  Authors:
+  - Raimondeau P
+  - Bianconi ME
+  - Pereira L
+  - Parisod C
+  - Christin PA
+  - Dunning LT
+  DOI: 10.1111/nph.19272
+  Date_Published: 2023
+  Journal: New Phytol
+  PDF: null
+  PMC: null
+  PMID: '37793435'
+  Title: Lateral gene transfer generates accessory genes that accumulate at different
+    rates within a grass lineage
+- Abstract: 'As species expand their geographic ranges, colonizing populations face
+    novel ecological conditions, such as new environments and limited mates, and suffer
+    from evolutionary consequences of demographic change through bottlenecks and mutation
+    load accumulation. Self-fertilization is often observed at species range edges
+    and, in addition to countering the lack of mates, is hypothesized as an evolutionary
+    advantage against load accumulation through increased homozygosity and purging.
+    We study how selfing impacts the accumulation of genetic load during range expansion
+    via purging and/or speed of colonization. Using simulations, we disentangle inbreeding
+    effects due to demography versus due to selfing and find that selfers expand faster,
+    but still accumulate load, regardless of mating system. The severity of variants
+    contributing to this load, however, differs across mating system: higher selfing
+    rates purge large-effect recessive variants leaving a burden of smaller-effect
+    alleles. We compare these predictions to the mixed-mating plant Arabis alpina,
+    using whole-genome sequences from refugial outcrossing populations versus expanded
+    selfing populations. Empirical results indicate accumulation of expansion load
+    along with evidence of purging in selfing populations, concordant with our simulations,
+    suggesting that while purging is a benefit of selfing evolving during range expansions,
+    it is not sufficient to prevent load accumulation due to range expansion.'
+  Authors:
+  - Zeitler L
+  - Parisod C
+  - Gilbert KJ
+  DOI: 10.1371/journal.pgen.1010883
+  Date_Published: 2023
+  Journal: PLoS Genet
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC10501686&blobtype=pdf
+  PMC: '10501686'
+  PMID: '37656747'
+  Title: Purging due to self-fertilization does not prevent accumulation of expansion
+    load
+- Abstract: Entomopathogenic nematodes (EPNs) are soil-dwelling parasitic roundworms
+    commonly used as biocontrol agents of insect pests in agriculture. EPN dauer juveniles
+    locate and infect a host in which they will grow and multiply until resource depletion.
+    During their free-living stage, EPNs face a series of internal and environmental
+    stresses. Their ability to overcome these challenges is crucial to determine their
+    infection success and survival. In this review, we provide a comprehensive overview
+    of EPN response to stresses associated with starvation, low/elevated temperatures,
+    desiccation, osmotic stress, hypoxia, and ultra-violet light. We further report
+    EPN defense strategies to cope with biotic stressors such as viruses, bacteria,
+    fungi, and predatory insects. By comparing the genetic and biochemical basis of
+    these strategies to the nematode model Caenorhabditis elegans, we provide new
+    avenues and targets to select and engineer precision nematodes adapted to specific
+    field conditions.
+  Authors:
+  - Maushe D
+  - Ogi V
+  - Divakaran K
+  - Verdecia Mogena AM
+  - Himmighofen PA
+  - Machado RAR
+  - Towbin BD
+  - Ehlers RU
+  - Molina C
+  - Parisod C
+  - Robert CAM
+  DOI: 10.1016/j.jip.2023.107953
+  Date_Published: 2023
+  Journal: J Invertebr Pathol
+  PDF: null
+  PMC: null
+  PMID: '37336478'
+  Title: 'Stress tolerance in entomopathogenic nematodes: Engineering superior nematodes
+    for precision agriculture'
+- Abstract: 'BACKGROUND AND AIMS: Habitat degradation and landscape fragmentation
+    dramatically lower population sizes of rare plant species. Decreasing population
+    sizes may, in turn, negatively affect genetic diversity and reproductive fitness,
+    which can ultimately lead to local extinction of populations. Although such extinction
+    vortex dynamics have been postulated in theory and modelling for decades, empirical
+    evidence from local extinctions of plant populations is scarce. In particular,
+    comparisons between current vs. historical genetic diversity and differentiation
+    are lacking despite their potential to guide conservation management.
+
+    METHODS: We studied the population genetic signatures of the local extinction
+    of Biscutella laevigata subsp. gracilis populations in Central Germany. We used
+    microsatellites to genotype individuals from 15 current populations, one ex situ
+    population, and 81 herbarium samples from five extant and 22 extinct populations.
+    In the current populations, we recorded population size and fitness proxies, collected
+    seeds for a germination trial and conducted a vegetation survey. The latter served
+    as a surrogate for habitat conditions to study how habitat dissimilarity affects
+    functional connectivity among the current populations.
+
+    KEY RESULTS: Bayesian clustering revealed similar gene pool distribution in current
+    and historical samples but also indicated that a distinct genetic cluster was
+    significantly associated with extinction probability. Gene flow was affected by
+    both the spatial distance and floristic composition of population sites, highlighting
+    the potential of floristic composition as a powerful predictor of functional connectivity
+    which may promote decision-making for reintroduction measures. For an extinct
+    population, we found a negative relationship between sampling year and heterozygosity.
+    Inbreeding negatively affected germination.
+
+    CONCLUSIONS: Our study illustrates the usefulness of historical DNA to study extinction
+    vortices in threatened species. Our novel combination of classical population
+    genetics together with data from herbarium specimens, an ex situ population and
+    a germination trial underlines the need for genetic rescue measures to prevent
+    extinction of B. laevigata in Central Germany.'
+  Authors:
+  - Rosche C
+  - Baasch A
+  - Runge K
+  - Brade P
+  - "Tr\xE4ger S"
+  - Parisod C
+  - Hensen I
+  DOI: 10.1093/aob/mcac061
+  Date_Published: 2022
+  Journal: Ann Bot
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC9292615&blobtype=pdf
+  PMC: '9292615'
+  PMID: '35670810'
+  Title: Tracking population genetic signatures of local extinction with herbarium
+    specimens
+- Abstract: Relative contributions of pre-existing vs de novo genomic variation to
+    adaptation are poorly understood, especially in polyploid organisms. We assess
+    this in high resolution using autotetraploid Arabidopsis arenosa, which repeatedly
+    adapted to toxic serpentine soils that exhibit skewed elemental profiles. Leveraging
+    a fivefold replicated serpentine invasion, we assess selection on SNPs and structural
+    variants (TEs) in 78 resequenced individuals and discover significant parallelism
+    in candidate genes involved in ion homeostasis. We further model parallel selection
+    and infer repeated sweeps on a shared pool of variants in nearly all these loci,
+    supporting theoretical expectations. A single striking exception is represented
+    by TWO PORE CHANNEL 1, which exhibits convergent evolution from independent de
+    novo mutations at an identical, otherwise conserved site at the calcium channel
+    selectivity gate. Taken together, this suggests that polyploid populations can
+    rapidly adapt to environmental extremes, calling on both pre-existing variation
+    and novel polymorphisms.
+  Authors:
+  - "Kone\u010Dn\xE1 V"
+  - Bray S
+  - "Vl\u010Dek J"
+  - "Bohut\xEDnsk\xE1 M"
+  - "Po\u017E\xE1rov\xE1 D"
+  - Choudhury RR
+  - Bollmann-Giolai A
+  - Flis P
+  - Salt DE
+  - Parisod C
+  - Yant L
+  - "Kol\xE1\u0159 F"
+  DOI: 10.1038/s41467-021-25256-5
+  Date_Published: 2021
+  Journal: Nat Commun
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC8370997&blobtype=pdf
+  PMC: '8370997'
+  PMID: '34404804'
+  Title: Parallel adaptation in autopolyploid Arabidopsis arenosa is dominated by
+    repeated recruitment of shared alleles
+- Abstract: 'BACKGROUND: Plant genomes can respond rapidly to environmental changes
+    and transposable elements (TEs) arise as important drivers contributing to genome
+    dynamics. Although some elements were reported to be induced by various abiotic
+    or biotic factors, there is a lack of general understanding on how environment
+    influences the activity and diversity of TEs. Here, we combined common garden
+    experiment with short-read sequencing to investigate genomic abundance and expression
+    of 2245 consensus TE sequences (containing retrotransposons and DNA transposons)
+    in an alpine environment in Arabidopsis arenosa. To disentangle general trends
+    from local differentiation, we leveraged four foothill-alpine population pairs
+    from different mountain regions. Seeds of each of the eight populations were raised
+    under four treatments that differed in temperature and irradiance, two factors
+    varying with elevation. RNA-seq analysis was performed on leaves of young plants
+    to test for the effect of elevation and subsequently of temperature and irradiance
+    on expression of TE sequences.
+
+    RESULTS: Genomic abundance of the 2245 consensus TE sequences varied greatly between
+    the mountain regions in line with neutral divergence among the regions, representing
+    distinct genetic lineages of A. arenosa. Accounting for intraspecific variation
+    in abundance, we found consistent transcriptomic response for some TE sequences
+    across the different pairs of foothill-alpine populations suggesting parallelism
+    in TE expression. In particular expression of retrotransposon LTR Copia (e.g.
+    Ivana and Ale clades) and LTR Gypsy (e.g. Athila and CRM clades) but also non-LTR
+    LINE or DNA transposon TIR MuDR consistently varied with elevation of origin.
+    TE sequences responding specifically to temperature and irradiance belonged to
+    the same classes as well as additional TE clades containing potentially stress-responsive
+    elements (e.g. LTR Copia Sire and Tar, LTR Gypsy Reina).
+
+    CONCLUSIONS: Our study demonstrated that the A. arenosa genome harbours a considerable
+    diversity of TE sequences whose abundance and expression response varies across
+    its native range. Some TE clades may contain transcriptionally active elements
+    responding to a natural environmental gradient. This may further contribute to
+    genetic variation between populations and may ultimately provide new regulatory
+    mechanisms to face environmental challenges.'
+  Authors:
+  - Wos G
+  - Choudhury RR
+  - "Kol\xE1\u0159 F"
+  - Parisod C
+  DOI: 10.1186/s13100-021-00236-0
+  Date_Published: 2021
+  Journal: Mob DNA
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC7916287&blobtype=pdf
+  PMC: '7916287'
+  PMID: '33639991'
+  Title: Transcriptional activity of transposable elements along an elevational gradient
+    in Arabidopsis arenosa
+- Abstract: "The Arctic is one of the most extreme terrestrial environments on the\
+    \ planet. Here, we present the first chromosome-scale genome assembly of a plant\
+    \ adapted to the high Arctic, Draba nivalis (Brassicaceae), an attractive model\
+    \ species for studying plant adaptation to the stresses imposed by this harsh\
+    \ environment. We used an iterative scaffolding strategy with data from short-reads,\
+    \ single-molecule long reads, proximity ligation data, and a genetic map to produce\
+    \ a 302\_Mb assembly that is highly contiguous with 91.6% assembled into eight\
+    \ chromosomes (the base chromosome number). To identify candidate genes and gene\
+    \ families that may have facilitated adaptation to Arctic environmental stresses,\
+    \ we performed comparative genomic analyses with nine non-Arctic Brassicaceae\
+    \ species. We show that the D. nivalis genome contains expanded suites of genes\
+    \ associated with drought and cold stress (e.g., related to the maintenance of\
+    \ oxidation-reduction homeostasis, meiosis, and signaling pathways). The expansions\
+    \ of gene families associated with these functions appear to be driven in part\
+    \ by the activity of transposable elements. Tests of positive selection identify\
+    \ suites of candidate genes associated with meiosis and photoperiodism, as well\
+    \ as cold, drought, and oxidative stress responses. Our results reveal a multifaceted\
+    \ landscape of stress adaptation in the D. nivalis genome, offering avenues for\
+    \ the continued development of this species as an Arctic model plant."
+  Authors:
+  - Nowak MD
+  - Birkeland S
+  - "Mand\xE1kov\xE1 T"
+  - Roy Choudhury R
+  - Guo X
+  - Gustafsson ALS
+  - Gizaw A
+  - "Schr\xF8der-Nielsen A"
+  - Fracassetti M
+  - Brysting AK
+  - Rieseberg L
+  - Slotte T
+  - Parisod C
+  - Lysak MA
+  - Brochmann C
+  DOI: 10.1111/1755-0998.13280
+  Date_Published: 2021
+  Journal: Mol Ecol Resour
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC7983928&blobtype=pdf
+  PMC: '7983928'
+  PMID: '33058468'
+  Title: The genome of Draba nivalis shows signatures of adaptation to the extreme
+    environmental stresses of the Arctic
+- Abstract: 'BACKGROUND AND AIMS: Hybridization is known to drive plant speciation
+    through the establishment of homoploid or allopolyploid hybrid species. Here we
+    investigate the origin of Pulmonaria helvetica, a narrow endemic species described
+    across a restricted area of Switzerland that was entirely covered by ice during
+    the last glacial maximum. This species presents an original number of chromosomes
+    (2n = 24) and morphological traits suggestive of a hybrid origin.
+
+    METHODS: We sequenced a plastid locus and 1077 double-digest restriction-site-associated
+    DNA (ddRAD) loci in 67 individuals from across the distribution range of P. helvetica
+    and candidate progenitor species growing in the same area. Assignment of genotypes
+    to main genetic clusters within and among taxa using STRUCTURE tested whether
+    P. helvetica represents a genetically differentiated lineage and addressed the
+    hypothesis of its hybrid origin. Comparative ecological modelling further addressed
+    possible niche differentiation among taxa.
+
+    KEY RESULTS: Pulmonaria helvetica was highlighted as a genetically homogeneous
+    species distinct from co-occurring taxa. Consistent with a scenario of hybrid
+    speciation, it presented clear evidence of balanced admixture between Pulmonaria
+    officinalis (2n = 16) and Pulmonaria mollis s.l. (2n = 18, 22), which was also
+    highlighted as a maternal progenitor based on plastid sequences. Limited genetic
+    structure within the maternal progenitor is consistent with an origin of P. helvetica
+    through either homoploid hybridization with considerable karyotype changes or
+    via complex scenarios of allopolyploidy involving a dysploid taxon of P. mollis
+    s.l. Comparative niche modelling indicated non-significant ecological differences
+    between P. helvetica and its progenitors, supporting intrinsic factors resulting
+    from hybridization as main drivers of speciation.
+
+    CONCLUSIONS: Hybridization appears as a major process having promoted the postglacial
+    origin of the narrow endemic P. helvetica, suggesting hybrid speciation as an
+    effective process that rapidly produces new species under climate changes.'
+  Authors:
+  - "Gr\xFCnig S"
+  - Fischer M
+  - Parisod C
+  DOI: 10.1093/aob/mcaa145
+  Date_Published: 2021
+  Journal: Ann Bot
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC7750729&blobtype=pdf
+  PMC: '7750729'
+  PMID: '32738145'
+  Title: Recent hybrid speciation at the origin of the narrow endemic Pulmonaria helvetica
+- Abstract: Underpinnings of the distribution of allopolyploid species (hybrids with
+    duplicated genome) along spatial and ecological gradients are elusive. As allopolyploid
+    speciation combines the range of genetic and ecological characteristics of divergent
+    diploids, allopolyploids initially show their additivity and are predicted to
+    evolve differentiated ecological niches to establish in face of their competition.
+    Here, we use four diploid wild wheats that differentially combined into four independent
+    allopolyploid species to test for such additivity and assess the impact of ecological
+    constraints on species ranges. Divergent genetic variation from diploids being
+    fixed in heterozygote allopolyploids supports their genetic additivity. Spatial
+    integration of comparative phylogeography and modelling of climatic niches supports
+    ecological additivity of locally adapted diploid progenitors into allopolyploid
+    species which subsequently colonised wide ranges. Allopolyploids fill suitable
+    range to a larger extent than diploids and conservative evolution following the
+    combination of divergent species appears to support their expansion under environmental
+    changes.
+  Authors:
+  - Huynh S
+  - Broennimann O
+  - Guisan A
+  - Felber F
+  - Parisod C
+  DOI: 10.1111/ele.13466
+  Date_Published: 2020
+  Journal: Ecol Lett
+  PDF: null
+  PMC: null
+  PMID: '32012420'
+  Title: Eco-genetic additivity of diploids in allopolyploid wild wheats
+- Abstract: "The wheat group offers an outstanding system to address the interplay\
+    \ between hybridization, chromosomal evolution and biological diversification.\
+    \ Most diploid wild wheats originated following hybridization between the A-genome\
+    \ lineage and the B-genome lineage some 4\_Myr ago, resulting in an admixed D-genome\
+    \ lineage that presented dramatic radiation accompanied by considerable changes\
+    \ in genome size and chromosomal rearrangements. Comparative profiling of low-copy\
+    \ genes, repeated sequences and transposable elements among those divergent species\
+    \ characterized by different karyotypes highlights high genome dynamics and sheds\
+    \ new light on the processes underlying chromosomal evolution in wild wheats.\
+    \ One of the hybrid clades presents upsizing of metacentric chromosomes going\
+    \ along with the proliferation of specific repeats (i.e. 'genomic obesity'), whereas\
+    \ other species show stable genome size associated with increasing chromosomal\
+    \ asymmetry. Genetic and ecological variation in those specialized species suggest\
+    \ that genome restructuring was coupled with adaptive processes to support the\
+    \ evolution of a majority of acrocentric chromosomes. This synthesis of current\
+    \ knowledge on genome restructuring across the diversity of wild wheats paves\
+    \ the way towards surveys based on latest sequencing technologies to characterize\
+    \ valuable resources and address the significance of chromosomal evolution in\
+    \ species with complex genomes."
+  Authors:
+  - Parisod C
+  - Badaeva ED
+  DOI: 10.1111/nph.16415
+  Date_Published: 2020
+  Journal: New Phytol
+  PDF: null
+  PMC: null
+  PMID: '31913521'
+  Title: Chromosome restructuring among hybridizing wild wheats
+- Abstract: Plants defend themselves against herbivores through the production of
+    toxic and deterrent metabolites. Adapted herbivores can tolerate and sometimes
+    sequester these metabolites, allowing them to feed on defended plants and become
+    toxic to their own enemies. Can herbivore natural enemies overcome sequestered
+    plant defense metabolites to prey on adapted herbivores? To address this question,
+    we studied how entomopathogenic nematodes cope with benzoxazinoid defense metabolites
+    that are produced by grasses and sequestered by a specialist maize herbivore,
+    the western corn rootworm. We find that nematodes from US maize fields in regions
+    in which the western corn rootworm was present over the last 50 y are behaviorally
+    and metabolically resistant to sequestered benzoxazinoids and more infective toward
+    the western corn rootworm than nematodes from other parts of the world. Exposure
+    of a benzoxazinoid-susceptible nematode strain to the western corn rootworm for
+    5 generations results in higher behavioral and metabolic resistance and benzoxazinoid-dependent
+    infectivity toward the western corn rootworm. Thus, herbivores that are exposed
+    to a plant defense sequestering herbivore can evolve both behavioral and metabolic
+    resistance to plant defense metabolites, and these traits are associated with
+    higher infectivity toward a defense sequestering herbivore. We conclude that plant
+    defense metabolites that are transferred through adapted herbivores may result
+    in the evolution of resistance in herbivore natural enemies. Our study also identifies
+    plant defense resistance as a potential target for the improvement of biological
+    control agents.
+  Authors:
+  - Zhang X
+  - van Doan C
+  - Arce CCM
+  - Hu L
+  - Gruenig S
+  - Parisod C
+  - Hibbard BE
+  - "Herv\xE9 MR"
+  - Nielson C
+  - Robert CAM
+  - Machado RAR
+  - Erb M
+  DOI: 10.1073/pnas.1912599116
+  Date_Published: 2019
+  Journal: Proc Natl Acad Sci U S A
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC6859362&blobtype=pdf
+  PMC: '6859362'
+  PMID: '31659056'
+  Title: Plant defense resistance in natural enemies of a specialist insect herbivore
+- Abstract: "Evolutionary relationships among the Aegilops-Triticum relatives of cultivated\
+    \ wheats have been difficult to resolve owing to incomplete lineage sorting and\
+    \ reticulate evolution. Recent studies have suggested that the wheat D-genome\
+    \ lineage (progenitor of Ae. tauschii) originated through homoploid hybridization\
+    \ between the A-genome lineage (progenitor of Triticum s.str.) and the B-genome\
+    \ lineage (progenitor of Ae. speltoides). This scenario of reticulation has been\
+    \ debated, calling for adequate phylogenetic analyses based on comprehensive sampling.\
+    \ To reconstruct the evolution of Aegilops-Triticum diploids, we here combined\
+    \ high-throughput sequencing of 38 nuclear low-copy loci of multiple accessions\
+    \ of all 13 species with inferences of the species phylogeny using the full-parameterized\
+    \ MCMC_SEQ method. Phylogenies recovered a monophyletic Aegilops-Triticum lineage\
+    \ that began diversifying ~6.6\u202FMa ago and gave rise to four sublineages,\
+    \ i.e. the A- (2 species), B- (1 species), D- (9 species) and T- (Ae. mutica)\
+    \ genome lineage. Full-parameterized phylogenies as well as patterns of tree dilation\
+    \ and tree compression supported a hybrid origin of the D-genome lineage from\
+    \ A and B ~3.0-4.0\u202FMa ago, and did not indicate additional hybridization\
+    \ events. Conflicting ABBA-BABA tests suggestive of further reticulation were\
+    \ shown here to result from ancestral population structure rather than hybridization.\
+    \ This comprehensive and dated phylogeny of wheat relatives indicates that the\
+    \ origin of the hybrid D-genome was followed by intense diversification into the\
+    \ majority of extant diploid as well as allopolyploid wild wheats."
+  Authors:
+  - Huynh S
+  - Marcussen T
+  - Felber F
+  - Parisod C
+  DOI: 10.1016/j.ympev.2019.106554
+  Date_Published: 2019
+  Journal: Mol Phylogenet Evol
+  PDF: null
+  PMC: null
+  PMID: '31288105'
+  Title: Hybridization preceded radiation in diploid wheats
+- Abstract: A fundamental tenet of multicellular eukaryotic evolution is that vertical
+    inheritance is paramount, with natural selection acting on genetic variants transferred
+    from parents to offspring. This lineal process means that an organism's adaptive
+    potential can be restricted by its evolutionary history, the amount of standing
+    genetic variation, and its mutation rate. Lateral gene transfer (LGT) theoretically
+    provides a mechanism to bypass many of these limitations, but the evolutionary
+    importance and frequency of this process in multicellular eukaryotes, such as
+    plants, remains debated. We address this issue by assembling a chromosome-level
+    genome for the grass Alloteropsis semialata, a species surmised to exhibit two
+    LGTs, and screen it for other grass-to-grass LGTs using genomic data from 146
+    other grass species. Through stringent phylogenomic analyses, we discovered 57
+    additional LGTs in the A. semialata nuclear genome, involving at least nine different
+    donor species. The LGTs are clustered in 23 laterally acquired genomic fragments
+    that are up to 170 kb long and have accumulated during the diversification of
+    Alloteropsis. The majority of the 59 LGTs in A. semialata are expressed, and we
+    show that they have added functions to the recipient genome. Functional LGTs were
+    further detected in the genomes of five other grass species, demonstrating that
+    this process is likely widespread in this globally important group of plants.
+    LGT therefore appears to represent a potent evolutionary force capable of spreading
+    functional genes among distantly related grass species.
+  Authors:
+  - Dunning LT
+  - Olofsson JK
+  - Parisod C
+  - Choudhury RR
+  - Moreno-Villena JJ
+  - Yang Y
+  - Dionora J
+  - Quick WP
+  - Park M
+  - Bennetzen JL
+  - Besnard G
+  - Nosil P
+  - Osborne CP
+  - Christin PA
+  DOI: 10.1073/pnas.1810031116
+  Date_Published: 2019
+  Journal: Proc Natl Acad Sci U S A
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC6410850&blobtype=pdf
+  PMC: '6410850'
+  PMID: '30787193'
+  Title: Lateral transfers of large DNA fragments spread functional genes among grasses
+- Abstract: Advances in high-throughput sequencing have promoted the collection of
+    reference genomes and genome-wide diversity. However, the assessment of genomic
+    variation among populations has hitherto mainly been surveyed through single-nucleotide
+    polymorphisms (SNPs) and largely ignored the often major fraction of genomes represented
+    by transposable elements (TEs). Despite accumulating evidence supporting the evolutionary
+    significance of TEs, comprehensive surveys remain scarce. Here, we sequenced the
+    full genomes of 304 individuals of Arabis alpina sampled from four nearby natural
+    populations to genotype SNPs as well as polymorphic long terminal repeat retrotransposons
+    (polymorphic TEs; i.e., presence/absence of TE insertions at specific loci). We
+    identified 291,396 SNPs and 20,548 polymorphic TEs, comparing their contributions
+    to genomic diversity and divergence across populations. Few SNPs were shared among
+    populations and overall showed high population-specific variation, whereas most
+    polymorphic TEs segregated among populations. The genomic context of these two
+    classes of variants further highlighted candidate adaptive loci having a putative
+    impact on functional genes. In particular, 4.96% of the SNPs were identified as
+    nonsynonymous or affecting start/stop codons. In contrast, 43% of the polymorphic
+    TEs were present next to Arabis genes enriched in functional categories related
+    to the regulation of reproduction and responses to biotic as well as abiotic stresses.
+    This unprecedented data set, mapping variation gained from SNPs and complementary
+    polymorphic TEs within and among populations, will serve as a rich resource for
+    addressing microevolutionary processes shaping genome variation.
+  Authors:
+  - Rogivue A
+  - Choudhury RR
+  - Zoller S
+  - Joost S
+  - Felber F
+  - Kasser M
+  - Parisod C
+  - Gugerli F
+  DOI: 10.1111/1755-0998.12991
+  Date_Published: 2019
+  Journal: Mol Ecol Resour
+  PDF: null
+  PMC: null
+  PMID: '30636378'
+  Title: Genome-wide variation in nucleotides and retrotransposons in alpine populations
+    of Arabis alpina (Brassicaceae)
+- Abstract: "The genomic shock hypothesis suggests that allopolyploidy is associated\
+    \ with genome changes driven by transposable elements, as a response to imbalances\
+    \ between parental insertion loads. To explore this hypothesis, we compared three\
+    \ allotetraploids, Nicotiana arentsii, N.\_rustica and N.\_tabacum, which arose\
+    \ over comparable time frames from hybridisation between increasingly divergent\
+    \ diploid species. We used sequence-specific amplification polymorphism (SSAP)\
+    \ to compare the dynamics of six transposable elements in these allopolyploids,\
+    \ their diploid progenitors and in corresponding synthetic hybrids. We show that\
+    \ element-specific dynamics in young Nicotiana allopolyploids reflect their dynamics\
+    \ in diploid progenitors. Transposable element mobilisation is not concomitant\
+    \ with immediate genome merger, but occurs within the first generations of allopolyploid\
+    \ formation. In natural allopolyploids, such mobilisations correlate with imbalances\
+    \ in the repeat profile of the parental species, which increases with their genetic\
+    \ divergence. Other restructuring leading to locus loss is immediate, nonrandom\
+    \ and targeted at specific subgenomes, independently of cross orientation. The\
+    \ correlation between transposable element mobilisation in allopolyploids and\
+    \ quantitative imbalances in parental transposable element loads supports the\
+    \ genome shock hypothesis proposed by McClintock."
+  Authors:
+  - Mhiri C
+  - Parisod C
+  - Daniel J
+  - Petit M
+  - Lim KY
+  - Dorlhac de Borne F
+  - Kovarik A
+  - Leitch AR
+  - Grandbastien MA
+  DOI: 10.1111/nph.15484
+  Date_Published: 2019
+  Journal: New Phytol
+  PDF: null
+  PMC: null
+  PMID: '30220091'
+  Title: Parental transposable element loads influence their dynamics in young Nicotiana
+    hybrids and allotetraploids
+- Abstract: Plant species are known to adapt locally to their environment, particularly
+    in mountainous areas where conditions can vary drastically over short distances.
+    The climate of such landscapes being largely influenced by topography, using fine-scale
+    models to evaluate environmental heterogeneity may help detecting adaptation to
+    micro-habitats. Here, we applied a multiscale landscape genomic approach to detect
+    evidence of local adaptation in the alpine plant Biscutella laevigata. The two
+    gene pools identified, experiencing limited gene flow along a 1-km ridge, were
+    different in regard to several habitat features derived from a very high resolution
+    (VHR) digital elevation model (DEM). A correlative approach detected signatures
+    of selection along environmental gradients such as altitude, wind exposure, and
+    solar radiation, indicating adaptive pressures likely driven by fine-scale topography.
+    Using a large panel of DEM-derived variables as ecologically relevant proxies,
+    our results highlighted the critical role of spatial resolution. These high-resolution
+    multiscale variables indeed indicate that the robustness of associations between
+    genetic loci and environmental features depends on spatial parameters that are
+    poorly documented. We argue that the scale issue is critical in landscape genomics
+    and that multiscale ecological variables are key to improve our understanding
+    of local adaptation in highly heterogeneous landscapes.
+  Authors:
+  - Leempoel K
+  - Parisod C
+  - Geiser C
+  - Joost S
+  DOI: 10.1002/ece3.3778
+  Date_Published: 2018
+  Journal: Ecol Evol
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC5792616&blobtype=pdf
+  PMC: '5792616'
+  PMID: '29435254'
+  Title: Multiscale landscape genomic models to detect signatures of selection in
+    the alpine plant Biscutella laevigata
+- Abstract: "Studying hybridization has the potential to elucidate challenging questions\
+    \ in evolutionary biology such as the nature of adaptive genetic variation and\
+    \ reproductive isolation. A growing body of work highlights that the merging of\
+    \ divergent genomes goes beyond the reshuffling of standing variation from related\
+    \ species and promotes mutations (Abbott et\_al., ). However, to what extent such\
+    \ genome instability generates evolutionary significant variation remains largely\
+    \ elusive. In this issue of Molecular Ecology, Dennenmoser et\_al. () report considerable\
+    \ dynamics of transposable elements (TEs) in a recent invasive fish species of\
+    \ hybrid origin (Cottus; Figure\_). It adds to the recent examples from plants\
+    \ to support TE-specific genome variation following hybridization. Insights from\
+    \ early, as well as established, hybrids are largely coherent with increased TE\
+    \ activity, and this fish system thus represents an inspiring opportunity to further\
+    \ address the possible association between genome dynamics and \"rapid evolution\
+    \ of hybrid species.\" This work based on genome (re)sequencing contrasts with\
+    \ prior transcriptomics or PCR-based studies of TEs and illustrates how unprecedented\
+    \ amount of information promises a better understanding of the multiple patterns\
+    \ of variation across eukaryotic genomes; provided that we get the better of methodological\
+    \ advances. As discussed here, unbiased assessment of TE variation from genome\
+    \ surveys indeed remains a challenge precluding firm conclusions to be reached\
+    \ about the evolutionary significance of TEs. Despite methodological and conceptual\
+    \ developments that appear necessary to unambiguously uncover the unexplored iceberg\
+    \ below the known tip, the role of coding genes vs. TEs in promoting adaptation\
+    \ and speciation might be clarified in a not so remote future."
+  Authors:
+  - Choudhury RR
+  - Parisod C
+  DOI: 10.1111/mec.14247
+  Date_Published: 2017
+  Journal: Mol Ecol
+  PDF: null
+  PMC: null
+  PMID: '28949090'
+  Title: 'Jumping genes: Genomic ballast or powerhouse of biological diversification'
+- Abstract: Transposable elements support genome diversification, but comparison of
+    their proliferation and genomic distribution within and among species is necessary
+    to characterize their role in evolution. Such inferences are challenging because
+    of potential bias with incomplete sampling of repetitive genome regions. Here,
+    using the assembled genome as well as genome skimming datasets in Arabis alpina,
+    we assessed the limits of current approaches inferring the biology of transposable
+    elements. Long terminal repeat retrotransposons (LTR-RTs) identified in the assembled
+    genome were classified into monophyletic lineages (here called tribes), including
+    families of similar copies in Arabis along with elements from related Brassicaceae.
+    Inference of their dynamics using divergence of LTRs in full-length copies and
+    mismatch distribution of genetic variation among all copies congruently highlighted
+    recent transposition bursts, although ancient proliferation events were apparent
+    only with mismatch distribution. Similar inferences of LTR-RT dynamics based on
+    random sequences from genome skimming were highly correlated with assembly-based
+    estimates, supporting accurate analyses from shallow sequencing. Proportions of
+    LTR-RT copies next to genes from both assembled genomes and genome skimming were
+    congruent, pointing to tribes being over- or under-represented in the vicinity
+    of genes. Finally, genome skimming at low coverage revealed accurate inferences
+    of LTR-RT dynamics and distribution, although only the most abundant families
+    appeared robustly analysed at 0.1X. Examining the pitfalls and benefits of approaches
+    relying on different genomic resources, we highlight that random sequencing reads
+    represent adequate data suitably complementing biased samples of LTR-RT copies
+    retrieved from assembled genomes towards comprehensive surveys of the biology
+    of transposable elements.
+  Authors:
+  - Choudhury RR
+  - Neuhaus JM
+  - Parisod C
+  DOI: 10.1111/tpj.13524
+  Date_Published: 2017
+  Journal: Plant J
+  PDF: null
+  PMC: null
+  PMID: '28244250'
+  Title: 'Resolving fine-grained dynamics of retrotransposons: comparative analysis
+    of inferential methods and genomic resources'
+- Abstract: 'Contents 66 I. 67 II. 68 III. 69 IV. 70 V. 73 VI. 75 VII. 77 78 References
+    78 SUMMARY: Recent decades have seen declines of entire plant clades while other
+    clades persist despite changing environments. We suggest that one reason why some
+    clades persist is that species within these clades use similar habitats, because
+    such similarity may increase the degree of co-occurrence of species within clades.
+    Traditionally, co-occurrence among clade members has been suggested to be disadvantageous
+    because of increased competition and enemy pressure. Here, we hypothesize that
+    increased co-occurrence among clade members promotes mutualist exchange, niche
+    expansion or hybridization, thereby helping species avoid population decline from
+    environmental change. We review the literature and analyse published data for
+    hundreds of plant clades (genera) within a well-studied region and find major
+    differences in the degree to which species within clades occupy similar habitats.
+    We tentatively show that, in clades for which species occupy similar habitats,
+    species tend to exhibit increased co-occurrence, mutualism, niche expansion, and
+    hybridization - and rarely decline. Consistently, throughout the geological past,
+    clades whose species occupied similar habitats often persisted through long time-spans.
+    Overall, for many plant species, the occupation of similar habitats among fellow
+    clade members apparently reduced their vulnerability to environmental change.
+    Future research should identify when and how this previously unrecognized eco-evolutionary
+    feedback operates.'
+  Authors:
+  - Prinzing A
+  - Ozinga WA
+  - "Br\xE4ndle M"
+  - Courty PE
+  - Hennion F
+  - Labandeira C
+  - Parisod C
+  - Pihain M
+  - Bartish IV
+  DOI: 10.1111/nph.14341
+  Date_Published: 2017
+  Journal: New Phytol
+  PDF: null
+  PMC: null
+  PMID: '27880007'
+  Title: Benefits from living together? Clades whose species use similar habitats
+    may persist as a result of eco-evolutionary feedbacks
+- Abstract: Taking transposable elements into consideration in surveys of genetic
+    and epigenetic variation remains challenging in species lacking a high-quality
+    reference genome. Here, molecular techniques reducing genome complexity and specifically
+    targeting restructuring and methylation changes in TE genome fractions are described.
+    In particular, methyl-sensitive transposon display (MSTD) uses isoschizomers and
+    PCR amplifications to assess the methylation environment of TE insertions. MSTD
+    offers reliable insights into genome-wide epigenetic changes associated with TEs,
+    especially when used together with similar techniques tracking random sequences.
+  Authors:
+  - Parisod C
+  DOI: 10.1007/978-1-4899-7708-3_19
+  Date_Published: 2017
+  Journal: Methods Mol Biol
+  PDF: null
+  PMC: null
+  PMID: '27770371'
+  Title: Profiling Transposable Elements and Their Epigenetic Effects in Non-model
+    Species
+- Abstract: null
+  Authors:
+  - Parisod C
+  - Broennimann O
+  DOI: 10.1111/nph.14133
+  Date_Published: 2016
+  Journal: New Phytol
+  PDF: null
+  PMC: null
+  PMID: '27735072'
+  Title: Towards unified hypotheses of the impact of polyploidy on ecological niches
+- Abstract: The maintenance of species integrity despite pervasive hybridization is
+    ruled by the interplay between reproductive barriers. Endogenous postzygotic isolation
+    will shape the patterns of introgression in hybrid zones, leading to variable
+    outcomes depending on the genetic mechanism involved. Here, we analysed experimental
+    and natural hybrid populations of Aegilops geniculata and Aegilops triuncialis
+    to examine the genetics of species boundaries in the face of gene flow. Because
+    long-terminal repeat retrotransposons (LTR-RTs) showing differential evolutionary
+    trajectories are probably to affect hybrid dysgenesis and reproductive isolation
+    between these wild wheat species, we addressed the impact of LTR-RTs in shaping
+    introgression between them. Experimental settings involving artificial sympatry
+    and enforced crossings quantified strong, but incomplete reproductive isolation,
+    and highlighted asymmetrical endogenous postzygotic isolation between the two
+    species. Natural hybrid zones located in the northern Golan Heights were analysed
+    using plastid DNA, amplified fragment length polymorphisms (AFLP) marking random
+    sequences, and sequence-specific amplified polymorphisms (SSAP) tracking insertions
+    from six LTR-RT families. This analysis demonstrated asymmetrical introgression
+    and genome reorganization. In comparison with random sequences and quiescent LTR-RTs,
+    those LTR-RTs predicted to be activated following conflicting interactions in
+    hybrids revealed differential introgression across the hybrid zones. As also reported
+    for synthetic F1 hybrids, such LTR-RTs were specifically reorganized in the genomes
+    of viable hybrids, confirming that conflicts between selfish LTR-RTs may represent
+    key incompatibilities shaping species boundaries and fostering long-term species
+    integrity in the face of gene flow.
+  Authors:
+  - Senerchia N
+  - Felber F
+  - North B
+  - Sarr A
+  - Guadagnuolo R
+  - Parisod C
+  DOI: 10.1111/mec.13515
+  Date_Published: 2016
+  Journal: Mol Ecol
+  PDF: null
+  PMC: null
+  PMID: '26678573'
+  Title: Differential introgression and reorganization of retrotransposons in hybrid
+    zones between wild wheats
+- Abstract: "Whole-genome duplication (WGD) is usually followed by gene loss and karyotype\
+    \ repatterning. Despite evidence of new adaptive traits associated with WGD, the\
+    \ underpinnings and evolutionary significance of such genome fractionation remain\
+    \ elusive. Here, we use Buckler mustard (Biscutella laevigata) to infer processes\
+    \ that have driven the retention of duplicated genes after recurrent WGDs. In\
+    \ addition to the \u03B2- and \u03B1-WGD events shared by all Brassicaceae, cytogenetic\
+    \ and transcriptome analyses revealed two younger WGD events that occurred at\
+    \ times of environmental changes in the clade of Buckler mustard (Biscutelleae):\
+    \ a mesopolyploidy event from the late Miocene that was followed by considerable\
+    \ karyotype reshuffling and chromosome number reduction and a neopolyploidy event\
+    \ during the Pleistocene. Although a considerable number of the older duplicates\
+    \ presented signatures of retention under positive selection, the majority of\
+    \ retained duplicates arising from the younger mesopolyploidy WGD event matched\
+    \ predictions of the gene balance hypothesis and showed evidence of strong purifying\
+    \ selection as well as enrichment in gene categories responding to abiotic stressors.\
+    \ Retention of large stretches of chromosomes for both genomic copies supported\
+    \ the hypothesis that cycles of WGD and biased fractionation shaped the genome\
+    \ of this stress-tolerant polypolyloid, promoting the adaptive recruitment of\
+    \ stress-responding genes in the face of environmental challenges."
+  Authors:
+  - Geiser C
+  - "Mand\xE1kov\xE1 T"
+  - Arrigo N
+  - Lysak MA
+  - Parisod C
+  DOI: 10.1105/tpc.15.00791
+  Date_Published: 2016
+  Journal: Plant Cell
+  PDF: null
+  PMC: '4746682'
+  PMID: '26668305'
+  Title: Repeated Whole-Genome Duplication, Karyotype Reshuffling, and Biased Retention
+    of Stress-Responding Genes in Buckler Mustard
+- Abstract: null
+  Authors:
+  - Lafon-Placette C
+  - "Vallejo-Mar\xEDn M"
+  - Parisod C
+  - Abbott RJ
+  - "K\xF6hler C"
+  DOI: 10.1111/nph.13756
+  Date_Published: 2016
+  Journal: New Phytol
+  PDF: null
+  PMC: null
+  PMID: '26625345'
+  Title: 'Current plant speciation research: unravelling the processes and mechanisms
+    behind the evolution of reproductive isolation barriers'
+- Abstract: Long terminal repeat retrotransposons (LTR-RTs) represent a major fraction
+    of plant genomes, but processes leading to transposition bursts remain elusive.
+    Polyploidy expectedly leads to LTR-RT proliferation, as the merging of divergent
+    diploids provokes a genome shock activating LTR-RTs and/or genetic redundancy
+    supports the accumulation of active LTR-RTs through relaxation of selective constraints.
+    Available evidence supports interspecific hybridization as the main trigger of
+    genome dynamics, but few studies have addressed the consequences of intraspecific
+    polyploidy (i.e. autopolyploidy), where the genome shock is expectedly minimized.
+    The dynamics of LTR-RTs was thus here evaluated through low coverage 454 sequencing
+    of three closely related diploid progenitors and three independent autotetraploids
+    from the young Biscutella laevigata species complex. Genomes from this early diverging
+    Brassicaceae lineage presented a minimum of 40% repeats and a large diversity
+    of transposable elements. Differential abundances and patterns of sequence divergence
+    among genomes for 37 LTR-RT families revealed contrasted dynamics during species
+    diversification. Quiescent LTR-RT families with limited genetic variation among
+    genomes were distinguished from active families (37.8%) having proliferated in
+    specific taxa. Specific families proliferated in autopolyploids only, but most
+    transpositionally active families in polyploids were also differentiated among
+    diploids. Low expression levels of transpositionally active LTR-RT families in
+    autopolyploids further supported that genome shock and redundancy are non-mutually
+    exclusive triggers of LTR-RT proliferation. Although reputed stable, autopolyploid
+    genomes show LTR-RT fractions presenting analogies with polyploids between widely
+    divergent genomes.
+  Authors:
+  - Bardil A
+  - "Tayal\xE9 A"
+  - Parisod C
+  DOI: 10.1111/tpj.12837
+  Date_Published: 2015
+  Journal: Plant J
+  PDF: null
+  PMC: null
+  PMID: '25823965'
+  Title: Evolutionary dynamics of retrotransposons following autopolyploidy in the
+    Buckler Mustard species complex
+- Abstract: Interspecific hybridization leads to new interactions among divergent
+    genomes, revealing the nature of genetic incompatibilities having accumulated
+    during and after the origin of species. Conflicts associated with misregulation
+    of transposable elements (TEs) in hybrids expectedly result in their activation
+    and genome-wide changes that may be key to species boundaries. Repetitive genomes
+    of wild wheats have diverged under differential dynamics of specific long terminal
+    repeat retrotransposons (LTR-RTs), offering unparalleled opportunities to address
+    the underpinnings of plant genome reorganization by selfish sequences. Using reciprocal
+    F1 hybrids between three Aegilops species, restructuring and epigenetic repatterning
+    was assessed at random and LTR-RT sequences with amplified fragment length polymorphism
+    and sequence-specific amplified polymorphisms as well as their methylation-sensitive
+    counterparts, respectively. Asymmetrical reorganization of LTR-RT families predicted
+    to cause conflicting interactions matched differential survival of F1 hybrids.
+    Consistent with the genome shock model, increasing divergence of merged LTR-RTs
+    yielded higher levels of changes in corresponding genome fractions and lead to
+    repeated reorganization of LTR-RT sequences in F1 hybrids. Such non-random reorganization
+    of hybrid genomes is coherent with the necessary repression of incompatible TE
+    loci in support of hybrid viability and indicates that TE-driven genomic conflicts
+    may represent an overlooked factor supporting reproductive isolation.
+  Authors:
+  - Senerchia N
+  - Felber F
+  - Parisod C
+  DOI: 10.1098/rspb.2014.2874
+  Date_Published: 2015
+  Journal: Proc Biol Sci
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC4375867&blobtype=pdf
+  PMC: '4375867'
+  PMID: '25716787'
+  Title: Genome reorganization in F1 hybrids uncovers the role of retrotransposons
+    in reproductive isolation
+- Abstract: "Extensive gene flow between wheat (Triticum sp.) and several wild relatives\
+    \ of the genus Aegilops has recently been detected despite notoriously high levels\
+    \ of selfing in these species. Here, we assess and model the spread of wheat alleles\
+    \ into natural populations of the barbed goatgrass (Aegilops triuncialis), a wild\
+    \ wheat relative prevailing in the Mediterranean flora. Our sampling, based on\
+    \ an extensive survey of 31 Ae. triuncialis populations collected along a 60 km\
+    \ \xD7 20 km area in southern Spain (Grazalema Mountain chain, Andalousia, totalling\
+    \ 458 specimens), is completed with 33 wheat cultivars representative of the European\
+    \ domesticated pool. All specimens were genotyped with amplified fragment length\
+    \ polymorphism with the aim of estimating wheat admixture levels in Ae. triuncialis\
+    \ populations. This survey first confirmed extensive hybridization and backcrossing\
+    \ of wheat into the wild species. We then used explicit modelling of populations\
+    \ and approximate Bayesian computation to estimate the selfing rate of Ae. triuncialis\
+    \ along with the magnitude, the tempo and the geographical distance over which\
+    \ wheat alleles introgress into Ae. triuncialis populations. These simulations\
+    \ confirmed that extensive introgression of wheat alleles (2.7 \xD7 10(-4) wheat\
+    \ immigrants for each Ae. triuncialis resident, at each generation) into Ae. triuncialis\
+    \ occurs despite a high selfing rate (Fis \u2248 1 and selfing rate = 97%). These\
+    \ results are discussed in the light of risks associated with the release of genetically\
+    \ modified wheat cultivars in Mediterranean agrosystems."
+  Authors:
+  - Pajkovic M
+  - Lappe S
+  - Barman R
+  - Parisod C
+  - Neuenschwander S
+  - Goudet J
+  - Alvarez N
+  - Guadagnuolo R
+  - Felber F
+  - Arrigo N
+  DOI: 10.1111/mec.12918
+  Date_Published: 2014
+  Journal: Mol Ecol
+  PDF: null
+  PMC: null
+  PMID: '25223217'
+  Title: 'Wheat alleles introgress into selfing wild relatives: empirical estimates
+    from approximate Bayesian computation in Aegilops triuncialis'
+- Abstract: Crossing experiments indicate that hybrid sterility barriers frequently
+    have developed within diploid, circumpolar plant species of the genus Draba. To
+    gain insight into the rapid evolution of postzygotic reproductive isolation in
+    this system, we augmented the linkage map of one of these species, D. nivalis,
+    and searched for quantitative trait loci (QTLs) associated with reproductive isolation.
+    The map adds 63 new dominant markers to a previously published dataset of 31 co-dominant
+    microsatellites. These markers include 52 amplified fragment length polymorphisms
+    (AFLPs) and 11 sequence-specific amplified polymorphisms (SSAPs) based on retrotransposon
+    sequence. 22 markers displaying transmission ratio distortion were further included
+    in the map. We resolved eight linkage groups with a total map length of 894 cM.
+    Significant genotype-trait associations, or quantitative trait loci (QTL), were
+    detected for reproductive phenotypes including pollen fertility (4 QTLs), seed
+    set (3 QTLs), flowering time (3 QTLs) and number of flowers (4 QTLs). Observed
+    patterns of inheritance were consistent with the influence of both nuclear-nuclear
+    interactions and chromosomal changes on these traits. All seed set QTLs and one
+    pollen fertility QTL displayed underdominant effects suggestive of the involvement
+    of chromosomal rearrangements in hybrid sterility. Interestingly, D. nivalis is
+    predominantly self-fertilizing, which may facilitate the establishment of underdominant
+    loci and contribute to reproductive isolation.
+  Authors:
+  - Gustafsson AL
+  - Skrede I
+  - Rowe HC
+  - Gussarova G
+  - Borgen L
+  - Rieseberg LH
+  - Brochmann C
+  - Parisod C
+  DOI: 10.1371/journal.pone.0093834
+  Date_Published: 2014
+  Journal: PLoS One
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC3972243&blobtype=pdf
+  PMC: '3972243'
+  PMID: '24691072'
+  Title: Genetics of cryptic speciation within an Arctic mustard, Draba nivalis
+- Abstract: Transposable elements (TEs) are expectedly central to genome evolution.
+    To assess the impact of TEs in driving genome turnover, we used allopolyploid
+    genomes, showing considerable deviation from the predicted additivity of their
+    diploid progenitors and thus having undergone major restructuring. Genome survey
+    sequencing was used to select 17 putatively active families of long terminal repeat
+    retrotransposons. Genome-wide TE insertions were genotyped with sequence-specific
+    amplified polymorphism (SSAP) in diploid progenitors and their derived polyploids,
+    and compared with changes in random sequences to assess restructuring of four
+    independent Aegilops allotetraploid genomes. Generally, TEs with different evolutionary
+    trajectories from those of random sequences were identified. Thus, TEs presented
+    family-specific and species-specific dynamics following polyploidy, as illustrated
+    by Sabine showing proliferation in particular polyploids, but massive elimination
+    in others. Contrasting with that, only a few families (BARE1 and Romani) showed
+    proliferation in all polyploids. Overall, TE divergence between progenitors was
+    strongly correlated with the degree of restructuring in polyploid TE fractions.
+    TE families present evolutionary trajectories that are decoupled from genome-wide
+    changes after allopolyploidy and have a pervasive impact on their restructuring.
+  Authors:
+  - Senerchia N
+  - Felber F
+  - Parisod C
+  DOI: 10.1111/nph.12731
+  Date_Published: 2014
+  Journal: New Phytol
+  PDF: null
+  PMC: null
+  PMID: '24548250'
+  Title: Contrasting evolutionary trajectories of multiple retrotransposons following
+    independent allopolyploidy in wild wheats
+- Abstract: Transposable elements (TE) represent a major fraction of eukaryotic genomes
+    and play many roles in plant epigenetics. In this chapter, we describe the use
+    of Sequence-Specific Amplified Polymorphism (SSAP) as a reliable Transposon Display
+    technique applicable for use in many plant species. We also discuss the interpretation
+    of SSAP data and associated risks. This technique has potential to allow rapid
+    screening of plant populations, especially in nonmodel or wild species.
+  Authors:
+  - Parisod C
+  - Salmon A
+  - Ainouche M
+  - Grandbastien MA
+  DOI: 10.1007/978-1-62703-773-0_14
+  Date_Published: 2014
+  Journal: Methods Mol Biol
+  PDF: null
+  PMC: null
+  PMID: '24478017'
+  Title: Detecting epigenetic effects of transposable elements in plants
+- Abstract: Transposable elements (TEs) usually represent the most abundant and dynamic
+    fraction of genomes in almost all living organisms. The overall capacity of such
+    'junk DNA' to induce mutations and foster the reorganization of functional genomes
+    suggests that TE may be of central evolutionary significance. However, to what
+    extent TE dynamics drive and is driven by the evolutionary trajectory of host
+    taxa remains poorly known. Further work addressing the fate of TE insertions in
+    natural populations is necessary to shed light on their impact on microevolutionary
+    processes. Here, we highlight methodological approaches (i.e. transposon displays
+    and high-throughput sequencing), tracking TE insertions across large numbers of
+    individuals and discuss their pitfalls and benefits for molecular ecology surveys.
+  Authors:
+  - Bonchev G
+  - Parisod C
+  DOI: 10.1111/1755-0998.12133
+  Date_Published: 2013
+  Journal: Mol Ecol Resour
+  PDF: null
+  PMC: null
+  PMID: '23795753'
+  Title: Transposable elements and microevolutionary changes in natural populations
+- Abstract: Transposable elements (TEs) represent a major fraction of plant genomes
+    and drive their evolution. An improved understanding of genome evolution requires
+    the dynamics of a large number of TE families to be considered. We put forward
+    an approach bypassing the required step of a complete reference genome to assess
+    the evolutionary trajectories of high copy number TE families from genome snapshot
+    with high-throughput sequencing. Low coverage sequencing of the complex genomes
+    of Aegilops cylindrica and Ae. geniculata using 454 identified more than 70% of
+    the sequences as known TEs, mainly long terminal repeat (LTR) retrotransposons.
+    Comparing the abundance of reads as well as patterns of sequence diversity and
+    divergence within and among genomes assessed the dynamics of 44 major LTR retrotransposon
+    families of the 165 identified. In particular, molecular population genetics on
+    individual TE copies distinguished recently active from quiescent families and
+    highlighted different evolutionary trajectories of retrotransposons among related
+    species. This work presents a suite of tools suitable for current sequencing data,
+    allowing to address the genome-wide evolutionary dynamics of TEs at the family
+    level and advancing our understanding of the evolution of nonmodel genomes.
+  Authors:
+  - Senerchia N
+  - Wicker T
+  - Felber F
+  - Parisod C
+  DOI: 10.1093/gbe/evt064
+  Date_Published: 2013
+  Journal: Genome Biol Evol
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC4104650&blobtype=pdf
+  PMC: '4104650'
+  PMID: '23595021'
+  Title: Evolutionary dynamics of retrotransposons assessed by high-throughput sequencing
+    in wild relatives of wheat
+- Abstract: Evidence accumulated over the last decade has shown that allopolyploid
+    genomes may undergo drastic reorganization. However, timing and mechanisms of
+    structural diploidization over evolutionary timescales are still poorly known.
+    As transposable elements (TEs) represent major and labile components of plant
+    genomes, they likely play a pivotal role in fuelling genome changes leading to
+    long-term diploidization. Here, we exploit the 4.5 MY old allopolyploid Nicotiana
+    section Repandae to investigate the impact of TEs on the evolutionary dynamics
+    of genomes. Sequence-specific amplified polymorphisms (SSAP) on seven TEs with
+    expected contrasted dynamics were used to survey genome-wide TE insertion polymorphisms.
+    Comparisons of TE insertions in the four allopolyploid species and descendents
+    of the diploid species most closely related to their actual progenitors revealed
+    that the polyploids showed considerable departure from predicted additivity of
+    the diploids. Large numbers of new SSAP bands were observed in polyploids for
+    two TEs, but restructuring for most TE families involved substantial loss of fragments
+    relative to the genome of the diploid representing the paternal progenitor, which
+    could be due to changes in allopolyploids, diploid progenitor lineages or both.
+    The majority of non-additive bands were shared by all polyploid species, suggesting
+    that significant restructuring occurred early after the allopolyploid event that
+    gave rise to their common ancestor. Furthermore, several gains and losses of SSAP
+    fragments were restricted to N. repanda, suggesting a unique evolutionary trajectory.
+    This pattern of diploidization in TE genome fractions supports the hypothesis
+    that TEs are central to long-term genome turnover and depends on both TE and the
+    polyploid lineage considered.
+  Authors:
+  - Parisod C
+  - Mhiri C
+  - Lim KY
+  - Clarkson JJ
+  - Chase MW
+  - Leitch AR
+  - Grandbastien MA
+  DOI: 10.1371/journal.pone.0050352
+  Date_Published: 2012
+  Journal: PLoS One
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC3503968&blobtype=pdf
+  PMC: '3503968'
+  PMID: '23185607'
+  Title: Differential dynamics of transposable elements during long-term diploidization
+    of Nicotiana section Repandae (Solanaceae) allopolyploid genomes
+- Abstract: "Landscape genetics offers a promising framework for assessing the interactions\
+    \ between the environment and adaptive genetic variation in natural populations.\
+    \ A recent workshop held at the University of Neuchatel brought together leading\
+    \ experts in this field to address current insights and future research directions\
+    \ in adaptive landscape genetics. Considerable amounts of genetic and \u2044 or\
+    \ environmental data can now be collected, but the forthcoming challenge is to\
+    \ do more with such manna. This requires a markedly better understanding of the\
+    \ genetic variation that is adaptive and prompts for advances in information management\
+    \ together with the development of a balance between theory and data. Moreover,\
+    \ showing the links between landscapes and adaptive genetic variation will ultimately\
+    \ move the field beyond association studies."
+  Authors:
+  - Parisod C
+  - Holderegger R
+  DOI: 10.1111/j.1365-294x.2012.05675.x
+  Date_Published: 2012
+  Journal: Mol Ecol
+  PDF: null
+  PMC: null
+  PMID: '22988574'
+  Title: 'Adaptive landscape genetics: pitfalls and benefits'
+- Abstract: null
+  Authors:
+  - Parisod C
+  DOI: 10.1111/j.1469-8137.2011.04008.x
+  Date_Published: 2012
+  Journal: New Phytol
+  PDF: null
+  PMC: null
+  PMID: '22221149'
+  Title: Polyploids integrate genomic changes and ecological shifts. 13th Congress
+    of the European Society for Evolutionary Biology, Tuebingen, Germany, August 2011
+- Abstract: Gene flow between domesticated species and their wild relatives is receiving
+    growing attention. This study addressed introgression between wheat and natural
+    populations of its wild relatives (Aegilops species). The sampling included 472
+    individuals, collected from 32 Mediterranean populations of three widespread Aegilops
+    species (Aegilops geniculata, Ae. neglecta and Ae. triuncialis) and compared wheat
+    field borders to areas isolated from agriculture. Individuals were characterized
+    with amplified fragment length polymorphism fingerprinting, analysed through two
+    computational approaches (i.e. Bayesian estimations of admixture and fuzzy clustering),
+    and sequences marking wheat-specific insertions of transposable elements. With
+    this combined approach, we detected substantial gene flow between wheat and Aegilops
+    species. Specifically, Ae. neglecta and Ae. triuncialis showed significantly more
+    admixed individuals close to wheat fields than in locations isolated from agriculture.
+    In contrast, little evidence of gene flow was found in Ae. geniculata. Our results
+    indicated that reproductive barriers have been regularly bypassed during the long
+    history of sympatry between wheat and Aegilops.
+  Authors:
+  - Arrigo N
+  - Guadagnuolo R
+  - Lappe S
+  - Pasche S
+  - Parisod C
+  - Felber F
+  DOI: 10.1111/j.1752-4571.2011.00191.x
+  Date_Published: 2011
+  Journal: Evol Appl
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC3352535&blobtype=pdf
+  PMC: '3352535'
+  PMID: '25568015'
+  Title: 'Gene flow between wheat and wild relatives: empirical evidence from Aegilops
+    geniculata, Ae. neglecta and Ae. triuncialis'
+- Abstract: '*This study reconstructs the phylogeography of Aegilops geniculata, an
+    allotetraploid relative of wheat, to discuss the impact of past climate changes
+    and recent human activities (e.g. the early expansion of agriculture) on the genetic
+    diversity of ruderal plant species. *We combined chloroplast DNA (cpDNA) sequencing,
+    analysed using statistical parsimony network, with nonhierarchical K-means clustering
+    of amplified fragment length polymorphism (AFLP) genotyping, to unravel patterns
+    of genetic structure across the native range of Ae. geniculata. The AFLP dataset
+    was further explored by measurement of the regional genetic diversity and the
+    detection of isolation by distance patterns. *Both cpDNA and AFLP suggest an eastern
+    Mediterranean origin of Ae. geniculata. Two lineages have spread independently
+    over northern and southern Mediterranean areas. Northern populations show low
+    genetic diversity but strong phylogeographical structure among the main peninsulas,
+    indicating a major influence of glacial cycles. By contrast, low genetic structuring
+    and a high genetic diversity are detected in southern Mediterranean populations.
+    Finally, we highlight human-mediated dispersal resulting in substantial introgression
+    between resident and migrant populations. *We have shown that the evolutionary
+    trajectories of ruderal plants can be similar to those of wild species, but are
+    interfered by human activities, promoting range expansions through increased long-distance
+    dispersal and the creation of suitable habitats.'
+  Authors:
+  - Arrigo N
+  - Felber F
+  - Parisod C
+  - Buerki S
+  - Alvarez N
+  - David J
+  - Guadagnuolo R
+  DOI: 10.1111/j.1469-8137.2010.03328.x
+  Date_Published: 2010
+  Journal: New Phytol
+  PDF: null
+  PMC: null
+  PMID: '20561204'
+  Title: Origin and expansion of the allotetraploid Aegilops geniculata, a wild relative
+    of wheat
+- Abstract: 'BACKGROUND: Epigenetic modifications, such as cytosine methylation, are
+    inherited in plant species and may occur in response to biotic or abiotic stress,
+    affecting gene expression without changing genome sequence. Laguncularia racemosa,
+    a mangrove species, occurs in naturally contrasting habitats where it is subjected
+    daily to salinity and nutrient variations leading to morphological differences.
+    This work aims at unraveling how CpG-methylation variation is distributed among
+    individuals from two nearby habitats, at a riverside (RS) or near a salt marsh
+    (SM), with different environmental pressures and how this variation is correlated
+    with the observed morphological variation.
+
+    PRINCIPAL FINDINGS: Significant differences were observed in morphological traits
+    such as tree height, tree diameter, leaf width and leaf area between plants from
+    RS and SM locations, resulting in smaller plants and smaller leaf size in SM plants.
+    Methyl-Sensitive Amplified Polymorphism (MSAP) was used to assess genetic and
+    epigenetic (CpG-methylation) variation in L. racemosa genomes from these populations.
+    SM plants were hypomethylated (14.6% of loci had methylated samples) in comparison
+    to RS (32.1% of loci had methylated samples). Within-population diversity was
+    significantly greater for epigenetic than genetic data in both locations, but
+    SM also had less epigenetic diversity than RS. Frequency-based (G(ST)) and multivariate
+    (beta(ST)) methods that estimate population structure showed significantly greater
+    differentiation among locations for epigenetic than genetic data. Co-Inertia analysis,
+    exploring jointly the genetic and epigenetic data, showed that individuals with
+    similar genetic profiles presented divergent epigenetic profiles that were characteristic
+    of the population in a particular environment, suggesting that CpG-methylation
+    changes may be associated with environmental heterogeneity.
+
+    CONCLUSIONS: In spite of significant morphological dissimilarities, individuals
+    of L. racemosa from salt marsh and riverside presented little genetic but abundant
+    DNA methylation differentiation, suggesting that epigenetic variation in natural
+    plant populations has an important role in helping individuals to cope with different
+    environments.'
+  Authors:
+  - Lira-Medeiros CF
+  - Parisod C
+  - Fernandes RA
+  - Mata CS
+  - Cardoso MA
+  - Ferreira PC
+  DOI: 10.1371/journal.pone.0010326
+  Date_Published: 2010
+  Journal: PLoS One
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC2859934&blobtype=pdf
+  PMC: '2859934'
+  PMID: '20436669'
+  Title: Epigenetic variation in mangrove plants occurring in contrasting natural
+    environment
+- Abstract: 'BACKGROUND AND AIMS: Knowledge on how climate-induced range shifts might
+    affect natural selection is crucial to understand the evolution of species ranges.
+
+    METHODS: Using historical demographic perspectives gathered from regional-scale
+    phylogeography on the alpine herb Biscutella laevigata, indirect inferences on
+    gene flow and signature of selection based on AFLP genotyping were compared between
+    local populations persisting at the trailing edge and expanding at the leading
+    edge.
+
+    KEY RESULTS: Spatial autocorrelation revealed that gene flow was two times more
+    restricted at the trailing edge and genome scans indicated divergent selection
+    in this persisting population. In contrast, no pattern of selection emerged in
+    the expanding population at the leading edge.
+
+    CONCLUSIONS: Historical effects may determine different architecture of genetic
+    variation and selective patterns within local populations, what is arguably important
+    to understand evolutionary processes acting across the species ranges.'
+  Authors:
+  - Parisod C
+  - Joost S
+  DOI: 10.1093/aob/mcq014
+  Date_Published: 2010
+  Journal: Ann Bot
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC2850798&blobtype=pdf
+  PMC: '2850798'
+  PMID: '20181567'
+  Title: Divergent selection in trailing- versus leading-edge populations of Biscutella
+    laevigata
+- Abstract: Autopolyploidy is more common in plants than traditionally assumed, but
+    has received little attention compared with allopolyploidy. Hence, the advantages
+    and disadvantages of genome doubling per se compared with genome doubling coupled
+    with hybridizations in allopolyploids remain unclear. Autopolyploids are characterized
+    by genomic redundancy and polysomic inheritance, increasing effective population
+    size. To shed light on the evolutionary consequences of autopolyploidy, we review
+    a broad range of studies focusing on both synthetic and natural autopolyploids
+    encompassing levels of biological organization from genes to evolutionary lineages.
+    The limited evidence currently available suggests that autopolyploids neither
+    experience strong genome restructuring nor wide reorganization of gene expression
+    during the first generations following genome doubling, but that these processes
+    may become more important in the longer term. Biogeographic and ecological surveys
+    point to an association between the formation of autopolyploid lineages and environmental
+    change. We thus hypothesize that polysomic inheritance may provide a short-term
+    evolutionary advantage for autopolyploids compared to diploid relatives when environmental
+    change enforces range shifts. In addition, autopolyploids should possess increased
+    genome flexibility, allowing them to adapt and persist across heterogeneous landscapes
+    in the long run.
+  Authors:
+  - Parisod C
+  - Holderegger R
+  - Brochmann C
+  DOI: 10.1111/j.1469-8137.2009.03142.x
+  Date_Published: 2010
+  Journal: New Phytol
+  PDF: null
+  PMC: null
+  PMID: '20070540'
+  Title: Evolutionary consequences of autopolyploidy
+- Abstract: Transposable elements (TEs) represent an important fraction of plant genomes
+    and are likely to play a pivotal role in fuelling genome reorganization and functional
+    changes following allopolyploidization. Various processes associated with allopolyploidy
+    (i.e. genetic redundancy, bottlenecks during the formation of allopolyploids or
+    genome shock following genome merging) may allow accumulation of TE insertions.
+    Our objective in carrying out a survey of the literature and a comparative analysis
+    across different allopolyploid systems is to shed light on the structural, epigenetic
+    and functional modifications driven by TEs during allopolyploidization and subsequent
+    diploidization. The available evidence indicates that TE proliferation in the
+    short or the long term after allopolyploidization may be restricted to a few TEs,
+    in specific polyploid systems. By contrast, data indicate major structural changes
+    in the TE genome fraction immediately after allopolyploidization, mainly through
+    losses of TE sequences as a result of recombination. Emerging evidence also suggests
+    that TEs are targeted by substantial epigenetic changes, which may impact gene
+    expression and genome stability. Furthermore, TEs may directly or indirectly support
+    the evolution of new functionalities in allopolyploids during diploidization.
+    All data stress allopolyploidization as a shock associated with drastic genome
+    reorganization. Mechanisms controlling TEs during allopolyploidization as well
+    as their impact on diploidization are discussed.
+  Authors:
+  - Parisod C
+  - Alix K
+  - Just J
+  - Petit M
+  - Sarilar V
+  - Mhiri C
+  - Ainouche M
+  - Chalhoub B
+  - Grandbastien MA
+  DOI: 10.1111/j.1469-8137.2009.03096.x
+  Date_Published: 2010
+  Journal: New Phytol
+  PDF: null
+  PMC: null
+  PMID: '20002321'
+  Title: Impact of transposable elements on the organization and function of allopolyploid
+    genomes
+- Abstract: '*Transposable elements (TE) induce structural and epigenetic alterations
+    in their host genome, with major evolutionary implications. These alterations
+    are examined here in the context of allopolyploid speciation, on the recently
+    formed invasive species Spartina anglica, which represents an excellent model
+    to contrast plant genome dynamics following hybridization and genome doubling
+    in natural conditions. *Methyl-sensitive transposon display was used to investigate
+    the structural and epigenetic dynamics of TE insertion sites for several elements,
+    and to contrast it with comparable genome-wide methyl-sensitive amplified polymorphism
+    analyses. *While no transposition burst was detected, we found evidence of major
+    structural and CpG methylation changes in the vicinity of TE insertions accompanying
+    hybridization, and to a lesser extent, genome doubling. Genomic alteration appeared
+    preferentially in the maternal subgenome, and the environment of TEs was specifically
+    affected by large maternal-specific methylation changes, demonstrating that TEs
+    fuel epigenetic alterations at the merging of diverged genomes. *Such genome changes
+    indicate that nuclear incompatibilities in Spartina trigger immediate alterations,
+    which are TE-specific with an important epigenetic component. Since most of this
+    reorganization is conserved after genome doubling that produced a fertile invasive
+    species, TEs certainly play a central role in the shock-induced dynamics of the
+    genome during allopolyploid speciation.'
+  Authors:
+  - Parisod C
+  - Salmon A
+  - Zerjal T
+  - Tenaillon M
+  - Grandbastien MA
+  - Ainouche M
+  DOI: 10.1111/j.1469-8137.2009.03029.x
+  Date_Published: 2009
+  Journal: New Phytol
+  PDF: null
+  PMC: null
+  PMID: '19780987'
+  Title: Rapid structural and epigenetic reorganization near transposable elements
+    in hybrid and allopolyploid genomes in Spartina
+- Abstract: Gene flow, drift and selection can be detected through different signatures
+    across the genome and the landscape. Genetic discontinuities along with their
+    correlation to environmental features can be used to tease out isolation-by-distance
+    and isolation-by-time from processes related to selection. Using spatial statistics
+    (spatial autocorrelation methods, canonical correspondence analysis and partial
+    Mantel tests) dealing with genome-wide amplified fragment length polymorphism
+    (AFLP) under unlikely Hardy-Weinberg assumptions, this study investigates 124
+    individuals within a continuous population of the autopolyploid Biscutella laevigata
+    (Brassicaceae). Fine-scale spatial genetic structure was strong and the mosaic-like
+    distribution of AFLP genotypes was consistently associated with habitat factors,
+    even when controlled for geographical distances. The use of multivariate analyses
+    enabled separation of the factors responsible for the repartition of the genetic
+    variance and revealed a composite effect of isolation by distance, phenological
+    divergence and local adaptation to habitats characterised by different solar radiation
+    regimes. These results suggest that the immigrant inviability barrier facilitated
+    the maintenance of adapted subpopulations to distinct environmental conditions
+    at the local scale.
+  Authors:
+  - Parisod C
+  - Christin PA
+  DOI: 10.1111/j.1469-8137.2007.02361.x
+  Date_Published: 2008
+  Journal: New Phytol
+  PDF: null
+  PMC: null
+  PMID: '18208468'
+  Title: Genome-wide association to fine-scale ecological heterogeneity within a continuous
+    population of Biscutella laevigata (Brassicaceae)
+- Abstract: Past climatic changes and especially the ice ages have had a great impact
+    on both the distribution and the genetic composition of plant populations, but
+    whether they promoted speciation is still controversial. The autopolyploid complex
+    Biscutella laevigata is a classical example of polyploidy linked to glaciations
+    and is an interesting model to explore migration and speciation driven by climate
+    changes in a complex alpine landscape. Diploid taxa survived the last glacial
+    maximum in several never-glaciated areas and autotetraploids are clearly dominant
+    in the central parts of the Alps; however, previous range-wide studies failed
+    to identify their diploid ancestor(s). This study highlights the phylogeographical
+    relationships of maternal lineages in the Western Alps and investigates the polyploidy
+    process using plastid DNA sequences (trnS-trnG and trnK-intron) combined with
+    plastid DNA length polymorphism markers, which were transferable among Brassicaceae
+    species. Twenty-one distinct plastid DNA haplotypes were distinguished in 67 populations
+    densely sampled in the Western Alps and main lineages were identified by a median-joining
+    network. The external Alps harboured high levels of genetic diversity, while the
+    Central Alps contained only a subset of haplotypes due to postglacial recolonization.
+    Several haplotypes were restricted to local peripheral refugia and evidence of
+    in situ survival in central nunataks was detected by the presence of highly differentiated
+    haplotypes swamped by frequent ones. As hierarchical genetic structure pointed
+    to an independent evolution of the species in different biogeographical districts,
+    and since tetraploids displayed haplotypes belonging to different lineages restricted
+    to either the northern or the southern parts of the Alpine chain, polytopic autopolyploidy
+    was also apparent in the Western Alps.
+  Authors:
+  - Parisod C
+  - Besnard G
+  DOI: 10.1111/j.1365-294X.2007.03315.x
+  Date_Published: 2007
+  Journal: Mol Ecol
+  PDF: null
+  PMC: null
+  PMID: '17594445'
+  Title: Glacial in situ survival in the Western Alps and polytopic autopolyploidy
+    in Biscutella laevigata L. (Brassicaceae)
+- Abstract: 'BACKGROUND AND AIMS: The long-lived and mainly outcrossing species Sarracenia
+    purpurea has been introduced into Switzerland and become invasive. This creates
+    the opportunity to study reactions to founder effect and how a species can circumvent
+    deleterious effects of bottlenecks such as reduced genetic diversity, inbreeding
+    and extinction through mutational meltdown, to emerge as a highly invasive plant.
+
+    METHODS: A population genetic survey by random amplified polymorphism DNA markers
+    (RAPD) together with historical insights and a field pollination experiment were
+    carried out.
+
+    KEY RESULTS: At the regional scale, S. purpurea shows low structure (thetast=0.072)
+    due to a recent founder event and important subsequent growth. Nevertheless, multivariate
+    statistical analyses reveal that, because of a bottleneck that shifted allele
+    frequencies, most of the variability is independent among populations. In one
+    population (Tenasses) the species has become invasive and genetic analysis reveals
+    restricted gene flow and family structure (thetast=0.287). Although inbreeding
+    appears to be high (Fis >0.410 from a Bayesian estimation), a field pollination
+    experiment failed to detect significant inbreeding depression upon F1 seed number
+    and seed weight fitness-traits. Furthermore, crosses between unrelated individuals
+    produced F1 seeds with significantly reduced fitness, thus showing local outbreeding
+    depression.
+
+    CONCLUSIONS: The results suggest that, under restricted gene flow among families,
+    the species may not only have rapidly purged deleterious alleles, but also have
+    undergone some form of selection for inbreeding due to co-adaptation between loci.'
+  Authors:
+  - Parisod C
+  - Trippi C
+  - Galland N
+  DOI: 10.1093/aob/mci023
+  Date_Published: 2005
+  Journal: Ann Bot
+  PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC4246826&blobtype=pdf
+  PMC: '4246826'
+  PMID: '15546932'
+  Title: 'Genetic variability and founder effect in the pitcher plant Sarracenia purpurea
+    (Sarraceniaceae) in populations introduced into Switzerland: from inbreeding to
+    invasion'
+- Abstract: The consequences of whole-genome duplication (WGD) remain elusive. A new
+    study by Ebadi et al. simulating duplicated gene networks predicts that WGD immediately
+    generates autopolyploids with extreme phenotypes and increases phenotypic variance.
+    Such theoretical work calls for new experimental studies addressing to what extent
+    WGD may be beneficial under environmental changes.
+  Authors:
+  - Parisod C
+  DOI: 10.1016/j.tig.2023.12.004
+  Date_Published: 2024
+  Journal: Trends Genet
+  PDF: 2024Trends_Genetics.pdf
+  PMC: null
+  PMID: '38272738'
+  Title: Duplicated gene networks promote 'hopeful' phenotypic variation
+- Abstract: "Recombination and selection drive the extent of linkage disequilibrium\
+    \ (LD) among loci and therefore affect the reshuffling of adaptive genetic variation.\
+    \ However, it is poorly known to what extent the enrichment of transposable elements\
+    \ (TEs) in recombinationally-inert regions reflects their inefficient removal\
+    \ by purifying selection and whether the presence of polymorphic TEs can modify\
+    \ the local recombination rate. In this study, we investigate how TEs and recombination\
+    \ interact at fine scale along chromosomes and possibly support linked selection\
+    \ in natural populations. Whole-genome sequencing data of 304 individuals from\
+    \ nearby alpine populations of Arabis alpina were used to show that the density\
+    \ of polymorphic TEs is specifically correlated with local LD along chromosomes.\
+    \ Consistent with TEs modifying recombination, the characterization of 28 such\
+    \ LD blocks of up to 5.5\_Mb in length revealed strong evidence of selective sweeps\
+    \ at a few loci through either site frequency spectrum or haplotype structure.\
+    \ A majority of these blocks were enriched in genes related to ecologically relevant\
+    \ functions such as responses to cold, salt stress or photoperiodism. In particular,\
+    \ the S-locus (i.e., supergene responsible for strict outcrossing) was identified\
+    \ in a LD block with high levels of polymorphic TEs and evidence of selection.\
+    \ Another such LD block was enriched in cold-responding genes and presented evidence\
+    \ of adaptive loci related to photoperiodism and flowering being increasingly\
+    \ linked by polymorphic TEs. These results are consistent with the hypothesis\
+    \ that TEs modify recombination landscapes and thus interact with selection in\
+    \ driving blocks of linked adaptive loci in natural populations."
+  Authors:
+  - Choudhury RR
+  - Rogivue A
+  - Gugerli F
+  - Parisod C
+  DOI: 10.1111/mec.15014
+  Date_Published: 2019
+  Journal: Mol Ecol
+  PDF: null
+  PMC: null
+  PMID: '30633406'
+  Title: Impact of polymorphic transposable elements on linkage disequilibrium along
+    chromosomes
