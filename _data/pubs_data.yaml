@@ -1,26 +1,4 @@
-- Abstract: The molecular underpinnings and consequences of cycles of whole-genome
-    duplication (WGD) and subsequent gene loss through subgenome fractionation remain
-    largely elusive. Endogenous drivers, such as transposable elements (TEs), have
-    been postulated to shape genome-wide dominance and biased fractionation, leading
-    to a conserved least-fractionated (LF) subgenome and a degenerated most-fractionated
-    (MF) subgenome. In contrast, the role of exogenous factors, such as those induced
-    by environmental stresses, has been overlooked. In this study, a chromosome-scale
-    assembly of the alpine buckler mustard (Biscutella laevigata; Brassicaceae) that
-    underwent a WGD event about 11 million years ago is coupled with transcriptional
-    responses to heat, cold, drought, and herbivory to assess how gene expression
-    is associated with differential gene retention across the MF and LF subgenomes.
-    Counteracting the impact of TEs in reducing the expression and retention of nearby
-    genes across the MF subgenome, dosage balance is highlighted as a main endogenous
-    promoter of the retention of duplicated gene products under purifying selection.
-    Consistent with the "turn a hobby into a job" model, about one-third of environment-responsive
-    duplicates exhibit novel expression patterns, with one copy typically remaining
-    conditionally expressed, whereas the other copy has evolved constitutive expression,
-    highlighting exogenous factors as a major driver of gene retention. Showing uneven
-    patterns of fractionation, with regions remaining unbiased, but with others showing
-    high bias and significant enrichment in environment-responsive genes, this mesopolyploid
-    genome presents evolutionary signatures consistent with an interplay of endogenous
-    and exogenous factors having driven gene content following WGD-fractionation cycles.
-  Authors:
+- Authors:
   - Beringer M
   - Choudhury RR
   - "Mand\xE1kov\xE1 T"
@@ -30,7 +8,7 @@
   - Lysak MA
   - Parisod C
   DOI: 10.1093/molbev/msae155
-  Date_Published: 2024
+  Date_Published: 2024 July 21
   Journal: Mol Biol Evol
   PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11306978&blobtype=pdf
   PMC: '11306978'
