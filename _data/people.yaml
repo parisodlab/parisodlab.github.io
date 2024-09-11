@@ -34,7 +34,9 @@
 #================#
 # Research Staff #
 #================#
-
+- first_name: Sara
+  title: Research Assistant
+  photo: 
 
   
 #===================#
@@ -45,11 +47,17 @@
 #========================#
 # Undergraduates         #
 #========================#
-
+- first_name: Isaac
+  last_name: Anbrogetti
+  title: Bachelor Thesis student from Italy
+  description: I am interested in Pangenome based population genetics.
+  photo: 
+  email: isaac.ambrogetti@unifr.ch
 
 #========================#
 # Former Members         #
 #========================#
+
 
 - first_name: Manuel
   last_name: Poretti
