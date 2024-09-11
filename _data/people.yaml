@@ -56,6 +56,7 @@
   former: true
   title: Postdoctoral Researcher
   photo: manuel_poretti.jpg
+  pub_names: ["Poretti M"]
   email: 
   current_status: Postdoctoral Researcher in Australia
   departure: 2023-09-01
@@ -63,6 +64,8 @@
 - first_name: Marc
   last_name: Beringer
   title: Graduate Student
+  pub_names: ["Beringer M"]
   former: true
   photo: marc_beringer.jpg
   email: 
+  departure: 2023-10-25
