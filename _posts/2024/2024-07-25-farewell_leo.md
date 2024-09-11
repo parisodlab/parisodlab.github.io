@@ -1,6 +1,6 @@
 ---
 title: "Farewell to Leo!"
-subtitle: "Leo successfully presented his 1st year bachelor's internship. Congrats!"
+subtitle: "Leo Wuetschert successfully presented his 1st year master's internship. Congrats!"
 layout: post
 tags: news
 published: true
