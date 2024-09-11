@@ -47,7 +47,7 @@ layout: default
       {% for pub in publication %}
           
 <div class="pub">
-
+<!-- 
           <div class="pub-img">
           <a href="/publications/{{pub.PDF}}.pdf" class="thumbnail pub_thumb hidden-xs">
           <img src="/publications/thumb_{{ pub.PDF}}.png" alt="{{pub.PDF}}" />
@@ -58,39 +58,72 @@ layout: default
           <a href="/publications/{{pub.PDF}}.pdf" class="thumbnail visible-xs">
           <img src="/publications/thumb_{{ pub.PDF}}.png" alt="{{pub.PDF}}" />
           </a>
-          </div>
+          </div> -->
         
-          <strong>{{ pub.Title }}</strong>
-          {% assign pub_authors=pub.Authors|join:", " %}
-            {% for m in site.data.people %}
-              {% for p in m.pub_names %}
-                {% capture user_url %}
-                <a href='/People/#{{m.first_name}} {{m.last_name}}'>{{ p }}</a>{% endcapture %}
-                {% assign pub_authors=pub_authors|replace: p, user_url %}
-              {% endfor %}
-            {% endfor %}
-              <br /><small>{{ pub_authors }}</small>
-              <!-- Date -->
-              
-              <br />({{pub.Date_Published }}) <em>{{ pub.Journal }}</em>
-              <!-- DOI -->
-              [
-                {% if pub contains 'DOI' %}
-                  <a title="Document Object Identifier; Takes you to the Journal Website" href="http://dx.doi.org/{{ pub.DOI }}">DOI</a>
-                {% endif %}
+          <strong>{{ pub.Title }}</strong><br />
+							
+							{% for author in pub.Authors %}
+								{% assign corr_flag=0 %}
+								{% assign eq_flag=0 %}
+								{% assign author_website="" %}
 
-              <!-- PMID -->
-                {% if pub contains 'PMID' %}
-                 | <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{ pub.PMID }}">Pubmed</a>
-                {% endif %}
-              <!-- Pubmed Central -->
-                {% if pub.PMC %}
-                | <a title="Pubmed Central" href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{pub.PMC }}">PMC</a>
-                {% endif %}
-                {% if pub.has_data %}
-                | <a href="/Research/Data/{{ pub.PDF }}">Data</a>
-                {% endif %}
-              ]
+									{% if pub.Equal_Contributors contains author %}
+										{% assign eq_flag=1 %}
+									{% endif %}
+
+									{% for n in pub.Corresponding_Authors %}
+										{% for q in n %}
+											{% if author == q[0] %}
+												{% assign corr_flag=1 %}
+												{% assign corr_mail=q[1] %}
+											{% endif %}
+										{% endfor %}
+									{% endfor %}
+							{% for m in site.data.people %}
+									{% if m.pub_names contains author %}
+											{% capture author_website %}/People/#{{ m.first_name }} {{ m.last_name }}{% endcapture %}
+									{% endif %}
+							{% endfor %}
+
+							{% if forloop.last == false %}<span class='comma'>{% endif %}
+									{% if author_website != "" %}
+											<strong><span><a href='{{author_website}}'>{{author}}</a></span></strong>
+									{% else %}
+											<span>{{author}}</span>
+									{% endif %}
+									
+									{% if eq_flag == 1 %}
+											<span class="glyphicon glyphicon-flag tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Equal Contributors"></span>
+									{% endif %}
+							
+									{% if corr_flag == 1 %}
+										<a href="mailto:{{corr_mail}}"><span class="glyphicon glyphicon-envelope tooltip-item" data-toggle="tooltip" data-placement="bottom" title="Corresponding Authors" ></span></a>
+									{% endif %}
+								</span>
+							
+								{% endfor %}
+								<br />
+								<!-- Date -->
+								
+								({{pub.Date_Published }}) <em>{{ pub.Journal }}</em>
+								<!-- DOI -->
+								[
+									{% if pub contains 'DOI' %}
+										<a title="Document Object Identifier; Takes you to the Journal Website" href="http://dx.doi.org/{{ pub.DOI }}">DOI</a>
+									{% endif %}
+
+								<!-- PMID -->
+									{% if pub contains 'PMID' %}
+									 | <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{ pub.PMID }}">Pubmed</a>
+									{% endif %}
+								<!-- Pubmed Central -->
+									{% if pub.PMC %}
+									| <a title="Pubmed Central" href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{pub.PMC }}">PMC</a>
+									{% endif %}
+									{% if pub.pub_data != null %}
+					                | <a href="/Research/Data/{{ pub.PDF }}">Data</a>
+					                {% endif %}
+								]
     </div>
     <div class="clearfix"></div>
 
