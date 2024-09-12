@@ -44,7 +44,7 @@
 #================#
 - first_name: Sara
   title: Research Assistant
-  photo: 
+  photo: sara.jpg
 
   
 #===================#
@@ -55,12 +55,14 @@
   title: Student PhD thesis with Dr. Kimberly Gilbert
   pub_names: ["Zeitler L"]
   description: Modeling population genetic variables and their influence on the genetic load and diversity of plant populations.
+  photo: leo_zeitler.jpg
 
 - first_name: Vera
   last_name: Ogi
   title: Student PhD thesis co-supervised with C. Robert & M. Erb
   pub_names: ["Ogi V", "V Ogi"]
   description: I am interested in the evolution of plant defense mechanisms.
+  photo: vera_ogi.jpg
  
 
 #========================#
@@ -70,7 +72,7 @@
   last_name: Anbrogetti
   title: Student Bachelor Thesis from Italy
   description: I am interested in pangenome based population genetics.
-  photo: 
+  photo: isaac_ambrogetti.jpg
   email: isaac.ambrogetti@unifr.ch
 
 #========================#
