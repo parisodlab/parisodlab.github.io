@@ -33,7 +33,7 @@
   
 - first_name: Kimberly
   last_name: Gilbert
-  title: Ambizione Professor
+  title: Professor Ambizione 
   pub_names: ["Gilbert K", "K Gilbert", "Gilbert KJ"]
   description: I am interested in population genetics.
   photo: kimberly_gilbert.jpg
@@ -52,13 +52,13 @@
 #===================#
 - first_name: Leo
   last_name: Zeitler
-  title: Graduate Student with Dr. Kimberly Gilbert
+  title: Student PhD thesis with Dr. Kimberly Gilbert
   pub_names: ["Zeitler L"]
   description: Modeling population genetic variables and their influence on the genetic load and diversity of plant populations.
 
 - first_name: Vera
   last_name: Ogi
-  title: Graduate Student co-supervised with C. Robert & M. Erb
+  title: Student PhD thesis co-supervised with C. Robert & M. Erb
   pub_names: ["Ogi V", "V Ogi"]
   description: I am interested in the evolution of plant defense mechanisms.
  
