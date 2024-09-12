@@ -35,7 +35,7 @@
   last_name: Gilbert
   title: Professor Ambizione 
   pub_names: ["Gilbert K", "K Gilbert", "Gilbert KJ"]
-  description: I am interested in population genetics.
+  description: I am interested in theoretical population genetics.
   photo: kimberly_gilbert.jpg
   email:
 
@@ -69,7 +69,7 @@
 - first_name: Isaac
   last_name: Anbrogetti
   title: Student Bachelor Thesis from Italy
-  description: I am interested in Pangenome based population genetics.
+  description: I am interested in pangenome based population genetics.
   photo: 
   email: isaac.ambrogetti@unifr.ch
 
