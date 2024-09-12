@@ -13,7 +13,7 @@
 - first_name: Rimjhim Roy
   last_name: Choudhury
   title: Senior Researcher and System Administrator
-  pub_names: ["Choudhury RR", "RR Choudhury"]
+  pub_names: ["Choudhury RR", "RR Choudhury", "Choudhury R"]
   description: I am interested in transposable elements and local recombination rate evolution.
   photo: rimjhim.jpg
   cv: https://rimjhimroy.github.io/cv/index.html
@@ -26,7 +26,7 @@
 - first_name: Sandra
   last_name: Gruning
   title: Postdoctoral Researcher
-  pub_names: ["Gruning S", "S Gruning", "Grünig S"]
+  pub_names: ["Gruning S", "S Gruning", "Grünig S", "Gruenig S"]
   description: I am interested in population genetics.
   photo: sandra.jpg
   email: sandra.gruning@unifr.ch
@@ -76,27 +76,24 @@
 #========================#
 # Former Members         #
 #========================#
-
-
-- first_name: Manuel
-  last_name: Poretti
-  former: true
-  title: Postdoctoral Researcher
-  photo: manuel_poretti.jpg
-  pub_names: ["Poretti M"]
-  email: 
-  current_status: Postdoctoral Researcher in Australia
-  departure: 2023-09-01
-
-- first_name: Marc
-  last_name: Beringer
+- first_name: Natacha
+  last_name: Senerchia
   title: Graduate Student
-  pub_names: ["Beringer M"]
+  pub_names: ["Senerchia N"]
   former: true
-  photo: marc_beringer.jpg
+  photo: jana_wirth.jpg
   email: 
-  departure: 2023-10-25
-
+  current_status: 
+  departure: 2014-01-25
+- first_name: Celine
+  last_name: Geiser
+  title: Graduate Student
+  pub_names: ["Geiser C"]
+  former: true
+  photo: celine_geiser.jpg
+  email:
+  current_status: 
+  departure: 2014-01-25
 - first_name: Stella
   last_name: Huynh
   title: Graduate Student
@@ -106,3 +103,20 @@
   email: 
   current_status: PostDoc at Charles University in Prague
   departure: 2019-01-25
+- first_name: Marc
+  last_name: Beringer
+  title: Graduate Student
+  pub_names: ["Beringer M"]
+  former: true
+  photo: marc_beringer.jpg
+  email: 
+  departure: 2023-10-25
+- first_name: Manuel
+  last_name: Poretti
+  former: true
+  title: Postdoctoral Researcher
+  photo: manuel_poretti.jpg
+  pub_names: ["Poretti M"]
+  email: 
+  current_status: Postdoctoral Researcher in Australia
+  departure: 2023-09-01
