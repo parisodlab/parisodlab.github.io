@@ -22,6 +22,6 @@
 - name: Flow cytometry protocol
   file: flow_cytometry_manual.pdf
   group: DNA Methods
-- name: miRNeasy Mini Kit Manuel
+- name: miRNeasy Mini Kit Manual
   file: HB-2672-003_HB_miRNeasy_TC_Adv_Mini_Kit_1120_WW.pdf
   group: RNA Methods
