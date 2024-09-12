@@ -6,9 +6,9 @@ menu: tools
 published: true
 ---
 
-### XYZ
+### snakeGATK4_v2
 
 details
 
-* [xyz](https://github.com/parisodlab/xyz)
+* [snakeGATK4_v2](https://github.com/parisodlab/snakeGATK4_v2)
 
