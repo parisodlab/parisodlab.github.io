@@ -4,6 +4,7 @@ subtitle: "Ice age driven range shifts of diploids and expanding autotetraploids
 layout: post
 tags: news
 published: true
+PMID: 39253771
 ---
 
 Congratulations to Sandra for her paper in New Phytologist!

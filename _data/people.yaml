@@ -102,9 +102,18 @@
   title: Graduate Student
   pub_names: ["Huynh S"]
   former: true
-  photo: stella_hyunh.jpg
+  photo: stella_huynh.jpg
   email: 
   current_status: PostDoc at Charles University in Prague
+  departure: 2019-01-25
+- first_name: Martin
+  last_name: Čertner
+  title: Postdoctoral Researcher
+  pub_names: ["Center M"]
+  former: true
+  photo: martin_center.jpg
+  email: 
+  current_status: Assistant professor at Charles University in Prague
   departure: 2019-01-25
 - first_name: Marc
   last_name: Beringer
