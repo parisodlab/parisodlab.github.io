@@ -34,6 +34,7 @@ existing_pmids = [str(x["PMID"]) for x in yaml_db if 'PMID' in x]
 
 for i in pub_list:
     if i not in existing_pmids:
+        print(i)
         doc_list.append(fetch_pub(i))
 
 for entry in yaml_db:

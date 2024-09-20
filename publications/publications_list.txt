@@ -1,1 +1,2 @@
+# Put PMIDs or doi's here and run scripts/fetch_pubs.py
 39253771
