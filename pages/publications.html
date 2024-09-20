@@ -34,12 +34,13 @@ permalink: Publications/
 {% assign cur_year = pub.Date_Published | date: '%Y' %}
 {% if cur_year != prev_year %}
 <a name="{{ cur_year }}"></a>
-<h4 name="{{ cur_year }}">{{ cur_year }}</h4>
+<h4 name="{{ cur_year }}"><strong>{{ cur_year }}</strong></h4> <!-- Added <strong> tag to make the current year bold -->
 {% endif %}
 {% assign prev_year = pub.Date_Published | date: '%Y' %}
 
 <div class="pub">
-
+	<!-- Add space before each entry -->
+	<br>
 
 	<!-- <div class="pub-img">
 						<a href="/publications/{{pub.PDF}}.pdf" class="thumbnail pub_thumb hidden-xs">
