@@ -69,12 +69,7 @@
 #========================#
 # Undergraduates         #
 #========================#
-- first_name: Isaac
-  last_name: Anbrogetti
-  title: Student Bachelor Thesis from Italy
-  description: I am interested in pangenome based population genetics.
-  photo: isaac_ambrogetti.jpg
-  email: isaac.ambrogetti@unifr.ch
+
 
 #========================#
 # Former Members         #
@@ -132,3 +127,11 @@
   email: 
   current_status: Postdoctoral Researcher in Australia
   departure: 2023-09-01
+- first_name: Isaac
+  last_name: Ambrogetti
+  former: true
+  title: Student Bachelor Thesis from Italy
+  description: I am interested in pangenome based population genetics.
+  photo: isaac_ambrogetti.jpg
+  email: isaac.ambrogetti@unifr.ch
+  departure: 2024-10-08
