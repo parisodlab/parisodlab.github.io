@@ -31,13 +31,7 @@
   photo: sandra.jpg
   email: sandra.gruning@unifr.ch
   
-- first_name: Kimberly
-  last_name: Gilbert
-  title: Professor Ambizione 
-  pub_names: ["Gilbert K", "K Gilbert", "Gilbert KJ"]
-  description: I am interested in theoretical population genetics.
-  photo: kimberly_gilbert.jpg
-  email:
+
 
 #================#
 # Research Staff #
@@ -51,12 +45,6 @@
 #===================#
 # Graduate Students #
 #===================#
-- first_name: Leo
-  last_name: Zeitler
-  title: Student PhD thesis with Dr. Kimberly Gilbert
-  pub_names: ["Zeitler L"]
-  description: Modeling population genetic variables and their influence on the genetic load and diversity of plant populations.
-  photo: leo_zeitler.jpg
 
 - first_name: Vera
   last_name: Ogi
@@ -135,3 +123,21 @@
   photo: isaac_ambrogetti.jpg
   email: isaac.ambrogetti@unifr.ch
   departure: 2024-10-08
+- first_name: Leo
+  last_name: Zeitler
+  former: true
+  title: Student PhD thesis with Dr. Kimberly Gilbert
+  pub_names: ["Zeitler L"]
+  description: Modeling population genetic variables and their influence on the genetic load and diversity of plant populations.
+  photo: leo_zeitler.jpg
+  departure: 2024-10-31
+  current_status: Postdoctoral Researcher at the WSL Zurich
+- first_name: Kimberly
+  last_name: Gilbert
+  title: Professor Ambizione 
+  pub_names: ["Gilbert K", "K Gilbert", "Gilbert KJ"]
+  description: I am interested in theoretical population genetics.
+  photo: kimberly_gilbert.jpg
+  email:
+  former: true
+
