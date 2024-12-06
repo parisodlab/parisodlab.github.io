@@ -13,7 +13,7 @@
   {% for f in site.static_files reversed sort:path %}
   {% if f.path contains '/people/albums' %}
   {% assign album = f.path | split: "/" %}
-  {% assign album_split = album[3] | split: "_" %}
+  {% assign album_split = album[3] | split: "-" %}
   {% assign album = album_split[3] %}
   {% assign album_date = album_split | slice: 0, 3 | join: "/" %}
   {% if album != prev %}
