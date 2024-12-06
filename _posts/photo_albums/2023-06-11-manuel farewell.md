@@ -1,5 +1,5 @@
 ---
-album: Zermatt-2020-Artemisia-glacialis
+album: Manuel farewell
 layout: gallery
 category: album
 menu: people
