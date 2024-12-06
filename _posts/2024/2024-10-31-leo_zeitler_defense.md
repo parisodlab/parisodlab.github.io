@@ -1,5 +1,5 @@
 ---
-title: "Leo's successfully defends her PhD!"
+title: "Leo's successfully defends his PhD!"
 subtitle: "Leo Zeitler defends his PhD thesis. Congratulations, Dr. Zeitler!." 
 layout: post
 tags: news
