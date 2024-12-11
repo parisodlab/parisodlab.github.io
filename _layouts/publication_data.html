@@ -40,7 +40,7 @@ layout: default
 
 
         <strong>{{ pub.Title }}</strong>
-        {% assign pub_authors=pub.Authors|join:", " %}
+        {% assign pub_authors=pub.Authors|join:"; " %}
         {% for m in site.data.people %}
         {% for p in m.pub_names %}
         {% capture user_url %}
