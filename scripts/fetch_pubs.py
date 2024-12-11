@@ -54,8 +54,7 @@ def fetch_pmid(pmid):
     if not pub:
         return {"Error": f"No article found for PMID {pmid}"}
     doi=pub.doi
-    dpub = get_bibtex_to_dict(doi)
-    return dpub
+    return doi
 
 # Function to convert the date to a datetime object
 def parse_date(date_str):
@@ -70,19 +69,21 @@ def fetch_pubs_and_update_yaml(pub_list, pubs_yaml):
     with open(pubs_yaml, 'r') as f:
         yaml_db = yaml.safe_load(f)
 
-    existing_pmids = [str(x["PMID"]) for x in yaml_db if 'PMID' in x]
     existing_dois = [str(x["DOI"]) for x in yaml_db if 'DOI' in x]
 
     # Fetch new publications
     for i in pub_list:
-        if i not in existing_pmids and i not in existing_dois:
-            print(f"Fetching new publication: {i}")
-            if i.startswith("10."):
-                doc_list.append(get_bibtex_to_dict(i))
-                print(doc_list)
-            else:
-                doc_list.append(fetch_pmid(i))
-                print(doc_list)
+        # If i is not doi, fetch the doi from the PMID
+        if not i.startswith("10."):
+            print(f"Fetching DOI for PMID: {i}")
+            doi = fetch_pmid(i)
+        else:
+            doi = i
+
+        if doi not in existing_dois:
+            print(f"Fetching new publication: {doi}")
+            doc_list.append(get_bibtex_to_dict(doi))
+            print(doc_list)
 
 
     # Append existing entries to the list
