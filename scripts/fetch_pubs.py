@@ -11,7 +11,7 @@ from subprocess import Popen, PIPE
 git_dir, err = Popen(['git', 'rev-parse', '--show-toplevel'], stdout=PIPE).communicate()
 git_dir = git_dir.strip()
 pubs_yaml = os.path.join(git_dir, b"_data/pubs_data.yaml")
-pubs_list = os.path.join(git_dir, b"publications/publications_list.txt")
+pubs_list = os.path.join(git_dir, b"publications/publications_list_doi.txt")
 
 
 def BibtexFromDoi(doi):
@@ -34,7 +34,7 @@ def get_bibtex_to_dict(doi):
             'Authors': entry.get('author', '').split(" and "),
             'DOI': entry.get('doi', ''),
             # Data_Published should be Year Month Day
-            'Date_Published': " ".join([entry.get('year', ''), entry.get('month', ''), "01"]),
+            'Date_Published': " ".join([entry.get('year', ''), entry.get('month', ''), "1"]),
             'Journal': entry.get('journal', ''),
             'PMC': entry.get('pmc', ''),
             'PMID': entry.get('pmid', ''),
