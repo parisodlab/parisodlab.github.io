@@ -18,9 +18,7 @@ menu: research
                     <th>Genome Size</th>
                     <th>Sequencing Technology</th>
                     <th>Assembly Quality</th>
-                    <th>Assembly Fasta</th>
-                    <th>Gene Annotation</th>
-                    <th>TE Annotation</th>
+                    <th>Downloads</th>
                     <th>Shiny App</th>
 
                 </tr>
@@ -35,17 +33,11 @@ menu: research
                     <td>{{ item.sequencing_technology }}</td>
                     <td>{{ item.assembly_quality }}</td>
                     <td>
-                        <a href="{{ item.assembly_fasta_link }}" target="_blank" class="btn btn-info btn-sm">Download
-                            Assembly Fasta</a>
-                    </td>
-                    <td>
+                        <a href="{{ item.assembly_fasta_link }}" target="_blank" class="btn btn-info btn-sm">Assembly
+                            Fasta</a>
                         <a href="{{ item.gene_annotation_download_link }}" target="_blank"
-                            class="btn btn-info btn-sm">Download
-                            Gene Annotation</a>
-                    </td>
-                    <td>
-                        <a href="{{ item.te_annotation_download_link }}" target="_blank"
-                            class="btn btn-info btn-sm">Download TE
+                            class="btn btn-info btn-sm">Gene Annotation</a>
+                        <a href="{{ item.te_annotation_download_link }}" target="_blank" class="btn btn-info btn-sm">TE
                             Annotation</a>
                     </td>
                     <td>
