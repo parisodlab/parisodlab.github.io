@@ -5,15 +5,11 @@ genome_assembly_data:
     sequencing_technology: "Oxford Nanopore, PacBio"
     assembly_method: "Hi-C, Oxford Nanopore"
     assembly_quality: "High"
-    gene_annotation: "GFF3, 15,000 genes"
-    te_annotation: "35% repetitive"
     assembly_download_link: "https://example.com/genome"
     gene_annotation_download_link: "https://example.com/gene_annotation"
     te_annotation_download_link: "https://example.com/te_annotation"
     transcriptome_download_link: "https://example.com/transcriptome"
-    proteome_download_link: "https://example.com/proteome"
     shiny_app_link: "https://example.com/shiny_app"
-    busco_result_link: "https://example.com/busco"
 
 population_genetics_data:
   - sample_name: "Biscutella_1"
