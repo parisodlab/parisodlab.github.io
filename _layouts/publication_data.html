@@ -5,7 +5,7 @@ layout: default
 <h3>Genome Assembly Data</h3>
 <div class="row">
   <div class="col-md-6">
-    {% for item in site.data.pubs_data.genome_assembly_data %}
+    {% for item in site.data.datasets.genome_assembly_data %}
     <div class="pub">
       <strong>{{ item.sample_name }}</strong>
       <p><strong>Genome Size:</strong> {{ item.genome_size }}</p>
@@ -23,7 +23,7 @@ layout: default
 <h3>Population Genetics Data</h3>
 <div class="row">
   <div class="col-md-6">
-    {% for item in site.data.pubs_data.population_genetics_data %}
+    {% for item in site.data.datasets.population_genetics_data %}
     <div class="pub">
       <strong>{{ item.sample_name }} - {{ item.population_name }}</strong>
       <p><strong>Genus:</strong> {{ item.genus }}</p>

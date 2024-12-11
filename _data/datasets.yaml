@@ -1,0 +1,89 @@
+genome_assembly_data:
+  - sample_name: "Biscutella_1"
+    assembly_version: "v1.0"
+    genome_size: "1.2"
+    sequencing_technology: "10x genomics linked reads, PacBio, Illumina paired end, Dovetail HiC"
+    assembly_quality: "High"
+    assembly_download_link: "https://example.com/genome"
+    gene_annotation_download_link: "https://example.com/gene_annotation"
+    te_annotation_download_link: "https://example.com/te_annotation"
+    transcriptome_download_link: "https://example.com/transcriptome"
+    shiny_app_link: "https://example.com/shiny_app"
+
+population_genetics_data:
+  - sample_name: "Biscutella_1"
+    population_name: "Pop1"
+    genus: "Biscutella"
+    species: "laevigata"
+    sequencing_technology: "WGS"
+    ncbi_ebi_accession_number: "ERR1234567"
+    map_location: "Lat: 45.8, Lon: 6.9"
+    latitude: 45.8
+    longitude: 6.9
+  - sample_name: "Biscutella_2"
+    population_name: "Pop2"
+    genus: "Biscutella"
+    species: "laevigata"
+    sequencing_technology: "ddRADseq"
+    ncbi_ebi_accession_number: "ERR1234568"
+    map_location: "Lat: 45.7, Lon: 7.0"
+    latitude: 45.7
+    longitude: 7.0
+
+gene_expression_data:
+  - sample_name: "Biscutella_1"
+    population_name: "Pop1"
+    genus: "Biscutella"
+    species: "laevigata"
+    subspecies: "austriaca"
+    sequencing_technology: "Illumina RNA-Seq"
+    treatment: "Control"
+    tissue: "Leaf"
+    ncbi_ebi_accession_number: "ERR1234567"
+  - sample_name: "Biscutella_2"
+    population_name: "Pop2"
+    genus: "Biscutella"
+    species: "laevigata"
+    subspecies: "laevigata"
+    sequencing_technology: "Illumina RNA-Seq"
+    treatment: "Heat Stress"
+    tissue: "Leaf"
+    ncbi_ebi_accession_number: "ERR1234568"
+
+phenotype_data:
+  - sample_name: "Biscutella_1"
+    trait: "Flower Color"
+    phenotype_value: "Red"
+    environmental_conditions: "Moderate Temperature, Well-Drained Soil"
+    link_to_data: "https://example.com/phenotype_data1"
+  - sample_name: "Biscutella_2"
+    trait: "Seed Size"
+    phenotype_value: "Large"
+    environmental_conditions: "Cold Temperature, Dry Soil"
+    link_to_data: "https://example.com/phenotype_data2"
+
+climate_and_environmental_data:
+  - sample_name: "Biscutella_1"
+    temperature: "15°C"
+    precipitation: "800 mm/year"
+    soil_type: "Loamy"
+    location: "Lat: 45.8, Lon: 6.9"
+    link_to_data: "https://example.com/climate_data1"
+  - sample_name: "Biscutella_2"
+    temperature: "18°C"
+    precipitation: "600 mm/year"
+    soil_type: "Sandy"
+    location: "Lat: 45.7, Lon: 7.0"
+    link_to_data: "https://example.com/climate_data2"
+
+molecular_markers_snp_data:
+  - sample_name: "Biscutella_1"
+    marker_type: "SSR"
+    snp_count: 500
+    sequencing_technology: "ddRADseq"
+    link_to_data: "https://example.com/snp_data1"
+  - sample_name: "Biscutella_2"
+    marker_type: "SNP"
+    snp_count: 2000
+    sequencing_technology: "WGS"
+    link_to_data: "https://example.com/snp_data2"
