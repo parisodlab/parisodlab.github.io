@@ -98,6 +98,10 @@ def fetch_pubs_and_update_yaml(pub_list, pubs_yaml):
     # Append existing entries to the list
     for entry in yaml_db:
         doc_list.append(entry)
+    
+    # Write the updated database back to the YAML file
+    with open(pubs_yaml, 'w') as f:
+        f.write(yaml.safe_dump(doc_list))
 
     # Sort the data based on the date_published field
     with open(pubs_yaml, 'r') as f:
@@ -106,7 +110,7 @@ def fetch_pubs_and_update_yaml(pub_list, pubs_yaml):
 
     # Write updated database back to the YAML file
     with open(pubs_yaml, 'w') as f:
-        f.write(yaml.safe_dump(doc_list))
+        f.write(yaml.safe_dump(data))
 
 
 

@@ -1,20 +1,5 @@
 - Abstract: ''
   Authors:
-  - "B\xFCrki, Tala"
-  - Pulver, Valentin
-  - "Gr\xFCnig, Sandra"
-  - "\u010Certner, Martin"
-  - Parisod, Christian
-  DOI: 10.1111/oik.09834
-  Date_Published: 2023 September 16
-  Journal: Oikos
-  PDF: http://dx.doi.org/10.1111/oik.09834
-  PMC: ''
-  PMID: ''
-  Title: Adaptive differentiation on serpentine soil in diploid versus autotetraploid
-    populations of Biscutella laevigata (Brassicaceae)
-- Abstract: ''
-  Authors:
   - Champoud, Luca
   - "Gr\xFCnig, Sandra"
   - Metry, Adrian
@@ -160,6 +145,21 @@
   PMID: '38948540'
   Title: Integrating very high resolution environmental proxies in genotype-environment
     association studies
+- Abstract: ''
+  Authors:
+  - "B\xFCrki, Tala"
+  - Pulver, Valentin
+  - "Gr\xFCnig, Sandra"
+  - "\u010Certner, Martin"
+  - Parisod, Christian
+  DOI: 10.1111/oik.09834
+  Date_Published: 2023 September 16
+  Journal: Oikos
+  PDF: http://dx.doi.org/10.1111/oik.09834
+  PMC: ''
+  PMID: ''
+  Title: Adaptive differentiation on serpentine soil in diploid versus autotetraploid
+    populations of Biscutella laevigata (Brassicaceae)
 - Abstract: Lateral gene transfer (LGT) is the movement of DNA between organisms without
     sexual reproduction. The acquired genes represent genetic novelties that have
     independently evolved in the donor's genome. Phylogenetic methods have shown that
@@ -524,6 +524,19 @@
   PMC: null
   PMID: '31913521'
   Title: Chromosome restructuring among hybridizing wild wheats
+- Abstract: ''
+  Authors:
+  - Huynh, Stella
+  - Marcussen, Thomas
+  - "Felber, Fran\xE7ois"
+  - Parisod, Christian
+  DOI: 10.1016/j.ympev.2019.106554
+  Date_Published: 2019 October 01
+  Journal: Molecular Phylogenetics and Evolution
+  PDF: http://dx.doi.org/10.1016/j.ympev.2019.106554
+  PMC: ''
+  PMID: ''
+  Title: Hybridization preceded radiation in diploid wheats
 - Abstract: Plants defend themselves against herbivores through the production of
     toxic and deterrent metabolites. Adapted herbivores can tolerate and sometimes
     sequester these metabolites, allowing them to feed on defended plants and become
@@ -565,39 +578,6 @@
   PMC: '6859362'
   PMID: '31659056'
   Title: Plant defense resistance in natural enemies of a specialist insect herbivore
-- Abstract: "Evolutionary relationships among the Aegilops-Triticum relatives of cultivated\
-    \ wheats have been difficult to resolve owing to incomplete lineage sorting and\
-    \ reticulate evolution. Recent studies have suggested that the wheat D-genome\
-    \ lineage (progenitor of Ae. tauschii) originated through homoploid hybridization\
-    \ between the A-genome lineage (progenitor of Triticum s.str.) and the B-genome\
-    \ lineage (progenitor of Ae. speltoides). This scenario of reticulation has been\
-    \ debated, calling for adequate phylogenetic analyses based on comprehensive sampling.\
-    \ To reconstruct the evolution of Aegilops-Triticum diploids, we here combined\
-    \ high-throughput sequencing of 38 nuclear low-copy loci of multiple accessions\
-    \ of all 13 species with inferences of the species phylogeny using the full-parameterized\
-    \ MCMC_SEQ method. Phylogenies recovered a monophyletic Aegilops-Triticum lineage\
-    \ that began diversifying ~6.6\u202FMa ago and gave rise to four sublineages,\
-    \ i.e. the A- (2 species), B- (1 species), D- (9 species) and T- (Ae. mutica)\
-    \ genome lineage. Full-parameterized phylogenies as well as patterns of tree dilation\
-    \ and tree compression supported a hybrid origin of the D-genome lineage from\
-    \ A and B ~3.0-4.0\u202FMa ago, and did not indicate additional hybridization\
-    \ events. Conflicting ABBA-BABA tests suggestive of further reticulation were\
-    \ shown here to result from ancestral population structure rather than hybridization.\
-    \ This comprehensive and dated phylogeny of wheat relatives indicates that the\
-    \ origin of the hybrid D-genome was followed by intense diversification into the\
-    \ majority of extant diploid as well as allopolyploid wild wheats."
-  Authors:
-  - Huynh S
-  - Marcussen T
-  - Felber F
-  - Parisod C
-  DOI: 10.1016/j.ympev.2019.106554
-  Date_Published: 2019 July 21
-  Journal: Mol Phylogenet Evol
-  PDF: null
-  PMC: null
-  PMID: '31288105'
-  Title: Hybridization preceded radiation in diploid wheats
 - Abstract: A fundamental tenet of multicellular eukaryotic evolution is that vertical
     inheritance is paramount, with natural selection acting on genetic variants transferred
     from parents to offspring. This lineal process means that an organism's adaptive
