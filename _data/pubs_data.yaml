@@ -20,13 +20,13 @@
   - "Gr\xFCnig S"
   - Patsiou T
   - Parisod C
+  Corresponding_Authors:
+  - Parisod C: christian.parisod@unifr.ch
   DOI: 10.1111/nph.20103
   Date_Published: 2024 September 16
   Journal: New Phytol
   PDF: null
   PMC: null
-  Corresponding_Authors:
-  - Parisod C: christian.parisod@unifr.ch
   PMID: '39253771'
   Title: Ice age-driven range shifts of diploids and expanding autotetraploids of
     Biscutella laevigata within a conserved niche
@@ -61,15 +61,15 @@
   - Leitch IJ
   - Lysak MA
   - Parisod C
+  Corresponding_Authors:
+  - Parisod C: christian.parisod@unifr.ch
   DOI: 10.1093/molbev/msae155
   Date_Published: 2024 July 21
+  Equal_Contributors: Beringer M, Choudhury RR
   Journal: Mol Biol Evol
   PDF: http://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11306978&blobtype=pdf
   PMC: '11306978'
   PMID: '39073781'
-  Corresponding_Authors:
-  - Parisod C: christian.parisod@unifr.ch
-  Equal_Contributors: Beringer M, Choudhury RR
   Title: Biased Retention of Environment-Responsive Genes Following Genome Fractionation
 - Abstract: The consequences of whole-genome duplication (WGD) remain elusive. A new
     study by Ebadi et al. simulating duplicated gene networks predicts that WGD immediately
@@ -638,11 +638,11 @@
   - Parisod C
   DOI: 10.1111/mec.15014
   Date_Published: 2019 July 21
+  Equal_Contributors: Choudhury RR, Rogivue A
   Journal: Mol Ecol
   PDF: null
   PMC: null
   PMID: '30633406'
-  Equal_Contributors: Choudhury RR, Rogivue A
   Title: Impact of polymorphic transposable elements on linkage disequilibrium along
     chromosomes
 - Abstract: Advances in high-throughput sequencing have promoted the collection of
