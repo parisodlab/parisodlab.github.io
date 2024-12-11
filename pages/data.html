@@ -1,101 +1,46 @@
 ---
 layout: page
+title: Data
 permalink: /Research/Data/
 published: true
 menu: research
 ---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Overview</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
-        }
+<div class="row">
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-
-        table,
-        th,
-        td {
-            border: 1px solid #ddd;
-        }
-
-        th,
-        td {
-            padding: 10px;
-            text-align: center;
-        }
-
-        th {
-            background-color: #4A90E2;
-            color: white;
-        }
-
-        td {
-            background-color: #f9f9f9;
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        a {
-            color: #4A90E2;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-
-<body>
-    <h1>Data Overview</h1>
-
-    <h2>Genome Assembly Data</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Sample Name</th>
-                <th>Assembly Version</th>
-                <th>Genome Size (Gbp)</th>
-                <th>Sequencing Technology</th>
-                <th>Assembly Quality</th>
-                <th>Assembly Download</th>
-                <th>Gene Annotation Download</th>
-                <th>TE Annotation Download</th>
-                <th>Transcriptome Download</th>
-                <th>Shiny App Link</th>
-            </tr>
-        </thead>
-        <tbody>
+    <div class="col-md-12">
+        <h4>Genome Assembly Data</h4>
+        <div class="list-group" style="margin-bottom:0px;">
             {% for item in site.data.pubs_data.genome_assembly_data %}
-            <tr>
-                <td>{{ item.sample_name }}</td>
-                <td>{{ item.assembly_version }}</td>
-                <td>{{ item.genome_size }}</td>
-                <td>{{ item.sequencing_technology }}</td>
-                <td>{{ item.assembly_quality }}</td>
-                <td><a href="{{ item.assembly_download_link }}" target="_blank">Download</a></td>
-                <td><a href="{{ item.gene_annotation_download_link }}" target="_blank">Download</a></td>
-                <td><a href="{{ item.te_annotation_download_link }}" target="_blank">Download</a></td>
-                <td><a href="{{ item.transcriptome_download_link }}" target="_blank">Download</a></td>
-                <td><a href="{{ item.shiny_app_link }}" target="_blank">Shiny App</a></td>
-            </tr>
+            <a href="/Research/Data/{{ item.assembly_download_link }}" class="list-group-item">
+                <h4 class="list-group-item-heading">{{ item.sample_name }}</h4>
+                <div class="list-group-item-text">
+                    <strong>Genome Size:</strong> {{ item.genome_size }}<br>
+                    <strong>Sequencing Technology:</strong> {{ item.sequencing_technology }}<br>
+                    <a href="{{ item.assembly_download_link }}" target="_blank">Download Assembly</a>
+                </div>
+            </a>
             {% endfor %}
-        </tbody>
-    </table>
+        </div>
+    </div>
 
-    <!-- Repeat similar blocks for other datasets (Population Genetics, Gene Expression, etc.) -->
-</body>
+    <div class="col-md-12">
+        <h4>Population Genetics Data</h4>
+        <div class="list-group" style="margin-bottom:0px;">
+            {% for item in site.data.pubs_data.population_genetics_data %}
+            <a href="/Research/Data/{{ item.download_link }}" class="list-group-item">
+                <h4 class="list-group-item-heading">{{ item.sample_name }} - {{ item.population_name }}</h4>
+                <div class="list-group-item-text">
+                    <strong>Genus:</strong> {{ item.genus }}<br>
+                    <strong>Species:</strong> {{ item.species }}<br>
+                    <strong>Sequencing Technology:</strong> {{ item.sequencing_technology }}<br>
+                    <strong>NCBI/EBI Accession:</strong> {{ item.accession_number }}<br>
+                    <strong>Map Location:</strong> Lat: {{ item.latitude }}, Lon: {{ item.longitude }}<br>
+                    <a href="{{ item.download_link }}" target="_blank">Download Data</a>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
 
-</html>
+</div>
