@@ -49,7 +49,7 @@
 - first_name: Vera
   last_name: Ogi
   title: Student PhD thesis co-supervised with Prof. Christelle Robert & Prof. Matthias Erb
-  pub_names: ["Ogi V", "V Ogi"]
+  pub_names: ["Ogi V", "V Ogi", "Ogi, Vera"]
   description: I am interested in the evolution of plant defense mechanisms.
   photo: vera_ogi.jpg
  
@@ -101,7 +101,7 @@
 - first_name: Marc
   last_name: Beringer
   title: Graduate Student
-  pub_names: ["Beringer M"]
+  pub_names: ["Beringer M", "Beringer, Marc"]
   former: true
   photo: marc_beringer.jpg
   email: 
