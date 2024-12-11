@@ -57,6 +57,9 @@ menu: research
             text-decoration: underline;
         }
     </style>
+    <!-- Leaflet.js for map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 </head>
 
 <body>
@@ -116,7 +119,7 @@ menu: research
             </tr>
         </thead>
         <tbody>
-            <tr>
+            <tr data-lat="45.8" data-lon="6.9">
                 <td>Biscutella_1</td>
                 <td>Pop1</td>
                 <td>Biscutella</td>
@@ -126,7 +129,7 @@ menu: research
                 <td>ERR1234567</td>
                 <td>Lat: 45.8, Lon: 6.9</td>
             </tr>
-            <tr>
+            <tr data-lat="45.7" data-lon="7.0">
                 <td>Biscutella_2</td>
                 <td>Pop2</td>
                 <td>Biscutella</td>
@@ -138,6 +141,37 @@ menu: research
             </tr>
         </tbody>
     </table>
+
+    <!-- Map with Genoreferenced Records -->
+    <h2>Sample Locations on Map</h2>
+    <div id="map"></div>
+
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([45.75, 6.85], 10);  // Set initial center and zoom level
+
+        // Add OpenStreetMap tile layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Get all rows from the Population Genetics Data Table
+        var table = document.getElementById('population-table');
+        var rows = table.getElementsByTagName('tr');
+
+        // Loop through each row and extract latitude and longitude
+        for (var i = 1; i < rows.length; i++) {
+            var lat = parseFloat(rows[i].getAttribute('data-lat'));
+            var lon = parseFloat(rows[i].getAttribute('data-lon'));
+            var sampleName = rows[i].cells[0].innerText;
+            var populationName = rows[i].cells[1].innerText;
+
+            // Add markers to the map
+            L.marker([lat, lon])
+                .addTo(map)
+                .bindPopup(sampleName + ": " + populationName);
+        }
+    </script>
 
     <!-- Gene Expression Data Table -->
     <h2>Gene Expression Data</h2>
