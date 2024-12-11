@@ -1,3 +1,6 @@
 # Put PMIDs or doi's here and run scripts/fetch_pubs.py
 39253771
-38948540
+10.1111/oik.09834
+10.1007/s00606-024-01931-0
+39073781
+10.1016/j.ympev.2019.106554 

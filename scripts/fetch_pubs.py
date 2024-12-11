@@ -1,44 +1,106 @@
-from metapub import PubMedFetcher
-from metapub import FindIt
+import bibtexparser
 import yaml
+from metapub import PubMedFetcher
+from metapub.findit import FindIt
+import requests
 import os
 from subprocess import Popen, PIPE
 
+# Determine paths using Git
 git_dir, err = Popen(['git', 'rev-parse', '--show-toplevel'], stdout=PIPE).communicate()
 git_dir = git_dir.strip()
 pubs_yaml = os.path.join(git_dir, b"_data/pubs_data.yaml")
 pubs_list = os.path.join(git_dir, b"publications/publications_list.txt")
 
-# Add new PMIDS to publications.txt then run this script
-q = PubMedFetcher()
 
-# open the things to be updated from the publications.txt file
-pub_list = map(str, open(pubs_list, 'r').read().splitlines()[1:])
+def BibtexFromDoi(doi):
+    """Fetch BibTeX entry from DOI using the CrossRef API."""
+    url = f"https://api.crossref.org/works/{doi}/transform/application/x-bibtex"
+    response = requests.get(url)
+    response.raise_for_status()  # Ensure request was successful
+    return response.text
 
+def get_bibtex_to_dict(doi):
+    """Get BibTex from DOI, parse a BibTeX entry, and return metadata as a dictionary."""
+    try:
+        bibtex_entry = BibtexFromDoi(doi)
+        bib_database = bibtexparser.loads(bibtex_entry)
 
-def fetch_pub(pmid):
-    pub = q.article_by_pmid(pmid)
+        if not bib_database.entries:
+            return {"Error": "No entries found in the BibTeX string."}
+
+        entry = bib_database.entries[0]
+        dpub = {
+            'Title': entry.get('title', '').strip("."),
+            'Authors': entry.get('author', '').split(" and "),
+            'DOI': entry.get('doi', ''),
+            'Date_Published': entry.get('year', ''),
+            'Journal': entry.get('journal', ''),
+            'PMC': entry.get('pmc', ''),
+            'PMID': entry.get('pmid', ''),
+            'Abstract': entry.get('abstract', ''),
+            'PDF': entry.get('url', '')
+        }
+        return dpub
+    except Exception as e:
+        return {"Error": str(e)}
+
+def fetch_pmid(pmid):
+    """Fetch metadata for a given PMID."""
+    q = PubMedFetcher()
     src = FindIt(pmid)
-    print(src.url)
-    # only grab relevant information
-    dpub = {'Title': pub.title.strip("."), 'Authors': pub.authors, 'DOI': pub.doi, 'Date_Published': pub.year, 'Journal': pub.journal, 'PMC': pub.pmc, 'PMID': str(pub.pmid), 'Abstract': pub.abstract, 'PDF': src.url}
+
+    pub = q.article_by_pmid(pmid)
+    if not pub:
+        return {"Error": f"No article found for PMID {pmid}"}
+
+    dpub = {
+        'Title': pub.title.strip("."),
+        'Authors': pub.authors,
+        'DOI': pub.doi,
+        'Date_Published': pub.year,
+        'Journal': pub.journal,
+        'PMC': pub.pmc,
+        'PMID': str(pub.pmid),
+        'Abstract': pub.abstract,
+        'PDF': src.url
+    }
     return dpub
 
-doc_list = []
+def fetch_pubs_and_update_yaml(pub_list, pubs_yaml):
+    """Fetch publications, check against existing YAML database, and update the file."""
 
-#  load current file
-with open(pubs_yaml, 'r') as f:
-    yaml_db = yaml.safe_load(f)
+    doc_list = []
 
-existing_pmids = [str(x["PMID"]) for x in yaml_db if 'PMID' in x]
+    # Load current YAML file
+    with open(pubs_yaml, 'r') as f:
+        yaml_db = yaml.safe_load(f)
 
-for i in pub_list:
-    if i not in existing_pmids:
-        print(i)
-        doc_list.append(fetch_pub(i))
+    existing_pmids = [str(x["PMID"]) for x in yaml_db if 'PMID' in x]
+    existing_dois = [str(x["DOI"]) for x in yaml_db if 'DOI' in x]
 
-for entry in yaml_db:
-    doc_list.append(entry)
-    
-with open(pubs_yaml, 'w') as f:
+    # Fetch new publications
+    for i in pub_list:
+        if i not in existing_pmids and i not in existing_dois:
+            print(f"Fetching new publication: {i}")
+            if i.startswith("10."):
+                doc_list.append(get_bibtex_to_dict(i))
+                print(doc_list)
+            else:
+                doc_list.append(fetch_pmid(i))
+                print(doc_list)
+
+
+    # Append existing entries to the list
+    for entry in yaml_db:
+        doc_list.append(entry)
+
+    # Write updated database back to the YAML file
+    with open(pubs_yaml, 'w') as f:
         f.write(yaml.safe_dump(doc_list))
+
+# Open the things to be updated from the publications.txt file
+pub_list = map(str, open(pubs_list, 'r').read().splitlines()[1:])
+fetch_pubs_and_update_yaml(pub_list, pubs_yaml)
+
+
