@@ -1,10 +1,10 @@
 genome_assembly_data:
-  - sample_name: "Biscutella_1"
+  - assembly_name: "Biscutella laevigata sbuspecies austriaca"
     assembly_version: "v1.0"
     genome_size: "1.2"
     sequencing_technology: "10x genomics linked reads, PacBio, Illumina paired end, Dovetail HiC"
     assembly_quality: "High"
-    assembly_download_link: "https://example.com/genome"
+    assembly_fasta_link: "https://example.com/genome"
     gene_annotation_download_link: "https://example.com/gene_annotation"
     te_annotation_download_link: "https://example.com/te_annotation"
     transcriptome_download_link: "https://example.com/transcriptome"

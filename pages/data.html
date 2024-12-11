@@ -13,21 +13,44 @@ menu: research
         <table class="table table-striped table-bordered table-hover">
             <thead class="thead-dark">
                 <tr>
-                    <th>Sample Name</th>
+                    <th>Assembly Name</th>
+                    <th>Assembly Version</th>
                     <th>Genome Size</th>
                     <th>Sequencing Technology</th>
-                    <th>Download Link</th>
+                    <th>Assembly Quality</th>
+                    <th>Assembly Fasta</th>
+                    <th>Gene Annotation</th>
+                    <th>TE Annotation</th>
+                    <th>Shiny App</th>
+
                 </tr>
             </thead>
             <tbody>
+                {% assign reversed_genome_assembly_data = site.data.datasets.genome_assembly_data | reverse %}
                 {% for item in site.data.datasets.genome_assembly_data %}
                 <tr>
-                    <td>{{ item.sample_name }}</td>
+                    <td>{{ item.assembly_name }}</td>
+                    <td>{{ item.assembly_version }}</td>
                     <td>{{ item.genome_size }}</td>
                     <td>{{ item.sequencing_technology }}</td>
+                    <td>{{ item.assembly_quality }}</td>
                     <td>
-                        <a href="{{ item.assembly_download_link }}" target="_blank" class="btn btn-info btn-sm">Download
-                            Assembly</a>
+                        <a href="{{ item.assembly_fasta_link }}" target="_blank" class="btn btn-info btn-sm">Download
+                            Assembly Fasta</a>
+                    </td>
+                    <td>
+                        <a href="{{ item.gene_annotation_download_link }}" target="_blank"
+                            class="btn btn-info btn-sm">Download
+                            Gene Annotation</a>
+                    </td>
+                    <td>
+                        <a href="{{ item.te_annotation_download_link }}" target="_blank"
+                            class="btn btn-info btn-sm">Download TE
+                            Annotation</a>
+                    </td>
+                    <td>
+                        <a href="{{ item.shiny_app_link }}" target="_blank" class="btn btn-info btn-sm">Sh
+                            App</a>
                     </td>
                 </tr>
                 {% endfor %}
@@ -51,6 +74,7 @@ menu: research
                 </tr>
             </thead>
             <tbody>
+                {% assign reversed_population_genetics_data = site.data.datasets.population_genetics_data | reverse %}
                 {% for item in site.data.datasets.population_genetics_data %}
                 <tr>
                     <td>{{ item.sample_name }}</td>
