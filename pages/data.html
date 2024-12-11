@@ -86,17 +86,12 @@ menu: research
                 <th>Assembly Version</th>
                 <th>Genome Size (Gbp)</th>
                 <th>Sequencing Technology</th>
-                <th>Assembly Method</th>
                 <th>Assembly Quality</th>
-                <th>Gene Annotation</th>
-                <th>TE Annotation</th>
                 <th>Assembly Download</th>
                 <th>Gene Annotation Download</th>
                 <th>TE Annotation Download</th>
                 <th>Transcriptome Download</th>
-                <th>Proteome Download</th>
                 <th>Shiny App Link</th>
-                <th>BUSCO Evaluation</th>
             </tr>
         </thead>
         <tbody id="genome-assembly-data">
@@ -220,17 +215,12 @@ menu: research
                     <td>${item.assembly_version}</td>
                     <td>${item.genome_size}</td>
                     <td>${item.sequencing_technology}</td>
-                    <td>${item.assembly_method}</td>
                     <td>${item.assembly_quality}</td>
-                    <td>${item.gene_annotation}</td>
-                    <td>${item.te_annotation}</td>
                     <td><a href="${item.assembly_download_link}" target="_blank">Download</a></td>
                     <td><a href="${item.gene_annotation_download_link}" target="_blank">Download</a></td>
                     <td><a href="${item.te_annotation_download_link}" target="_blank">Download</a></td>
                     <td><a href="${item.transcriptome_download_link}" target="_blank">Download</a></td>
-                    <td><a href="${item.proteome_download_link}" target="_blank">Download</a></td>
                     <td><a href="${item.shiny_app_link}" target="_blank">Shiny App</a></td>
-                    <td><a href="${item.busco_result_link}" target="_blank">BUSCO Result</a></td>
                 `;
                     genomeAssemblyTableBody.appendChild(row);
                 });
