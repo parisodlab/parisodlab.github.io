@@ -2,7 +2,7 @@
   last_name: Parisod
   title: PI
   # Specify names here to highlight within publications
-  pub_names: ["C Parisod", "Parisod C", "C. Parisod", "Christian Parisod","Parisod, Christian"]
+  pub_names: ["C Parisod", "Parisod C", "C. Parisod", "Christian Parisod","Parisod, Christian","Parisod, C", "PARISOD, CHRISTIAN"]
   photo: christian_parisod.jpg
   cv: parisod_cv.pdf
   email: christian.parisod@unifr.ch
@@ -13,7 +13,7 @@
 - first_name: Rimjhim Roy
   last_name: Choudhury
   title: Senior Researcher and System Administrator
-  pub_names: ["Choudhury RR", "RR Choudhury", "Choudhury R", "Roy Choudhury R"]
+  pub_names: ["Choudhury RR", "RR Choudhury", "Choudhury R", "Roy Choudhury R", "Roy Choudhury, Rimjhim", "Choudhury, Rimjhim Roy", "Choudhury, Rimjhim"]
   description: I am interested in transposable elements and local recombination rate evolution.
   photo: rimjhim.jpg
   cv: https://rimjhimroy.github.io/cv/index.html
