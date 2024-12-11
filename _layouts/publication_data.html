@@ -2,37 +2,86 @@
 layout: default
 ---
 
-<h3>Genome Assembly Data</h3>
-<div class="row">
-  <div class="col-md-6">
-    {% for item in site.data.datasets.genome_assembly_data %}
-    <div class="pub">
-      <strong>{{ item.sample_name }}</strong>
-      <p><strong>Genome Size:</strong> {{ item.genome_size }}</p>
-      <p><strong>Sequencing Technology:</strong> {{ item.sequencing_technology }}</p>
-      <p><a href="{{ item.assembly_download_link }}" target="_blank">Download Assembly</a></p>
-      <p><a href="{{ item.gene_annotation_download_link }}" target="_blank">Download Gene Annotation</a></p>
-      <p><a href="{{ item.te_annotation_download_link }}" target="_blank">Download TE Annotation</a></p>
-      <p><a href="{{ item.transcriptome_download_link }}" target="_blank">Download Transcriptome</a></p>
-      <p><a href="{{ item.shiny_app_link }}" target="_blank">Shiny App</a></p>
-    </div>
-    {% endfor %}
-  </div>
-</div>
+<h3>{% for pub in site.data.pubs_data %}
+  {% if pub.PDF == page.stub %}
+  {{ pub.Title }}
+  {% endif %}
+  {% endfor %}
+</h3>
+<p class="lead">{{ page.subtitle }}</p>
+<hr />
 
-<h3>Population Genetics Data</h3>
-<div class="row">
-  <div class="col-md-6">
-    {% for item in site.data.datasets.population_genetics_data %}
-    <div class="pub">
-      <strong>{{ item.sample_name }} - {{ item.population_name }}</strong>
-      <p><strong>Genus:</strong> {{ item.genus }}</p>
-      <p><strong>Species:</strong> {{ item.species }}</p>
-      <p><strong>Sequencing Technology:</strong> {{ item.sequencing_technology }}</p>
-      <p><strong>NCBI/EBI Accession Number:</strong> {{ item.accession_number }}</p>
-      <p><strong>Map Location:</strong> Lat: {{ item.latitude }}, Lon: {{ item.longitude }}</p>
-      <p><a href="{{ item.download_link }}" target="_blank">Download Data</a></p>
+
+
+<article class="post-content">
+  <div class="row">
+    <div class="col-md-6">
+
+      {% for pub in site.data.pubs_data %}
+      {% if pub.PDF == page.stub %}
+      {% if pub.PMID %}
+
+      {% assign publication = site.data.pubs_data | where: "PMID" , pub.PMID %}
+      {% for pub in publication %}
+
+      <div class="pub">
+
+        <div class="pub-img">
+          <a href="/publications/{{pub.PDF}}.pdf" class="thumbnail pub_thumb hidden-xs">
+            <img src="/publications/thumb_{{ pub.PDF}}.png" alt="{{pub.PDF}}" />
+          </a>
+        </div>
+
+        <div class="pub-img-small">
+          <a href="/publications/{{pub.PDF}}.pdf" class="thumbnail visible-xs">
+            <img src="/publications/thumb_{{ pub.PDF}}.png" alt="{{pub.PDF}}" />
+          </a>
+        </div>
+
+
+        <strong>{{ pub.Title }}</strong>
+        {% assign pub_authors=pub.Authors|join:", " %}
+        {% for m in site.data.people %}
+        {% for p in m.pub_names %}
+        {% capture user_url %}
+        <a href='/People/#{{m.first_name}} {{m.last_name}}'>{{ p }}</a>{% endcapture %}
+        {% assign pub_authors=pub_authors|replace: p, user_url %}
+        {% endfor %}
+        {% endfor %}
+        <br /><small>{{ pub_authors }}</small>
+        <!-- Date -->
+
+        <br />({{pub.Date_Published }}) <em>{{ pub.Journal }}</em>
+        <!-- DOI -->
+        [
+        {% if pub contains 'DOI' %}
+        <a title="Document Object Identifier; Takes you to the Journal Website"
+          href="http://dx.doi.org/{{ pub.DOI }}">DOI</a>
+        {% endif %}
+
+        <!-- PMID -->
+        {% if pub contains 'PMID' %}
+        | <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{ pub.PMID }}">Pubmed</a>
+        {% endif %}
+        <!-- Pubmed Central -->
+        {% if pub.PMC %}
+        | <a title="Pubmed Central" href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{pub.PMC }}">PMC</a>
+        {% endif %}
+        ]
+
+
+      </div>
+      <div class="clearfix"></div>
+
+      {% endfor %}
+      {% endif %}
+
+
+      {% endif %}
+      {% endfor %}
+
+      <p>{{ content }}</p>
     </div>
-    {% endfor %}
-  </div>
-</div>
+
+
+</article>
