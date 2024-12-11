@@ -11,7 +11,7 @@ from subprocess import Popen, PIPE
 git_dir, err = Popen(['git', 'rev-parse', '--show-toplevel'], stdout=PIPE).communicate()
 git_dir = git_dir.strip()
 pubs_yaml = os.path.join(git_dir, b"_data/pubs_data.yaml")
-pubs_list = os.path.join(git_dir, b"publications/publications_list_doi.txt")
+pubs_list = os.path.join(git_dir, b"publications/publications_list.txt")
 
 
 def BibtexFromDoi(doi):
@@ -53,18 +53,8 @@ def fetch_pmid(pmid):
     pub = q.article_by_pmid(pmid)
     if not pub:
         return {"Error": f"No article found for PMID {pmid}"}
-
-    dpub = {
-        'Title': pub.title.strip("."),
-        'Authors': pub.authors,
-        'DOI': pub.doi,
-        'Date_Published': pub.year,
-        'Journal': pub.journal,
-        'PMC': pub.pmc,
-        'PMID': str(pub.pmid),
-        'Abstract': pub.abstract,
-        'PDF': src.url
-    }
+    doi=pub.doi
+    dpub = get_bibtex_to_dict(doi)
     return dpub
 
 # Function to convert the date to a datetime object
