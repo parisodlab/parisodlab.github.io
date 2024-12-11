@@ -1,5 +1,6 @@
 import bibtexparser
 import yaml
+from datetime import datetime
 from metapub import PubMedFetcher
 from metapub.findit import FindIt
 import requests
@@ -25,16 +26,15 @@ def get_bibtex_to_dict(doi):
     try:
         bibtex_entry = BibtexFromDoi(doi)
         bib_database = bibtexparser.loads(bibtex_entry)
-
         if not bib_database.entries:
             return {"Error": "No entries found in the BibTeX string."}
-
         entry = bib_database.entries[0]
         dpub = {
             'Title': entry.get('title', '').strip("."),
             'Authors': entry.get('author', '').split(" and "),
             'DOI': entry.get('doi', ''),
-            'Date_Published': entry.get('year', ''),
+            # Data_Published should be Year Month Day
+            'Date_Published': " ".join([entry.get('year', ''), entry.get('month', ''), "01"]),
             'Journal': entry.get('journal', ''),
             'PMC': entry.get('pmc', ''),
             'PMID': entry.get('pmid', ''),
@@ -67,6 +67,10 @@ def fetch_pmid(pmid):
     }
     return dpub
 
+# Function to convert the date to a datetime object
+def parse_date(date_str):
+    return datetime.strptime(date_str, "%Y %B %d")
+
 def fetch_pubs_and_update_yaml(pub_list, pubs_yaml):
     """Fetch publications, check against existing YAML database, and update the file."""
 
@@ -95,9 +99,16 @@ def fetch_pubs_and_update_yaml(pub_list, pubs_yaml):
     for entry in yaml_db:
         doc_list.append(entry)
 
+    # Sort the data based on the date_published field
+    with open(pubs_yaml, 'r') as f:
+        data = yaml.safe_load(f)
+    data = sorted(data, key=lambda x: parse_date(x['Date_Published']), reverse=True)
+
     # Write updated database back to the YAML file
     with open(pubs_yaml, 'w') as f:
         f.write(yaml.safe_dump(doc_list))
+
+
 
 # Open the things to be updated from the publications.txt file
 pub_list = map(str, open(pubs_list, 'r').read().splitlines()[1:])

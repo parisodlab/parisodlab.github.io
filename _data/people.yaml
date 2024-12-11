@@ -2,7 +2,7 @@
   last_name: Parisod
   title: PI
   # Specify names here to highlight within publications
-  pub_names: ["C Parisod", "Parisod C", "C. Parisod", "Christian Parisod"]
+  pub_names: ["C Parisod", "Parisod C", "C. Parisod", "Christian Parisod","Parisod, Christian"]
   photo: christian_parisod.jpg
   cv: parisod_cv.pdf
   email: christian.parisod@unifr.ch
@@ -26,7 +26,7 @@
 - first_name: Sandra
   last_name: Gruning
   title: Postdoctoral Researcher
-  pub_names: ["Gruning S", "S Gruning", "Grünig S", "Gruenig S"]
+  pub_names: ["Gruning S", "S Gruning", "Grünig S", "Gruenig S", "Gr\xFCnig, Sandra"]
   description: I am interested in population genetics.
   photo: sandra.jpg
   email: sandra.gruning@unifr.ch
@@ -83,7 +83,7 @@
 - first_name: Stella
   last_name: Huynh
   title: Graduate Student
-  pub_names: ["Huynh S"]
+  pub_names: ["Huynh S", ""]
   former: true
   photo: stella_huynh.jpg
   email: 
@@ -92,7 +92,7 @@
 - first_name: Martin
   last_name: Čertner
   title: Postdoctoral Researcher
-  pub_names: ["Center M"]
+  pub_names: ["Center M","\u010Certner, Martin"]
   former: true
   photo: martin_center.jpg
   email: 
