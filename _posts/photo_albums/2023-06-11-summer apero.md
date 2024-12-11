@@ -1,5 +1,5 @@
 ---
-album: Farewell of Manuel
+album: Summer Apero
 layout: gallery
 category: album
 menu: people
