@@ -3,29 +3,267 @@ layout: page
 title: Data
 permalink: /Research/Data/
 published: true
-menu: research 
+menu: research
 ---
 
-<div class="row">
-    
-    <div class="col-md-12">
-        <h4>Publications</h4>
-        <div class="list-group" style="margin-bottom:0px;">
-            {% for pub in site.data.pubs_data %} {% if pub.pub_data != null %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parisod Lab Datasets</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
 
-            <a href="/Research/Data/{{ pub.PDF }}/" class="list-group-item">
-                <h4 class="list-group-item-heading"><small class="pull-right"></small>{% if pub.Stub_title %}{{ pub.Stub_title }}{% else %} {{ pub.Title }}{% endif %}</h4>
-                    <div class='list-group-item-text'>
-                    {% assign pub_authors=pub.Authors|join:", " %}
-                    <small>{{ pub_authors }}</small>
-                      <!-- Date -->
-                      
-                      <br />({{pub.Date_Published }}) <em>{{ pub.Journal }}</em>
-                        </div>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
 
-                <!--<p class="list-group-item-text">{{ pub.subtitle }}</p>-->
-            </a>
-            {% endif %} {% endfor %}
-        </div>
-    </div>
-</div>
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        td {
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Genome Assembly Data Overview</h1>
+    <p>Below is a summary of genome assembly data, annotations, and associated resources for *Biscutella* species.</p>
+
+    <!-- Genome Assembly Data Table -->
+    <h2>Genome Assembly Data</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Sample Name</th>
+                <th>Assembly Version</th>
+                <th>Genome Size (Gbp)</th>
+                <th>Sequencing Technology</th>
+                <th>Assembly Method</th>
+                <th>Assembly Quality</th>
+                <th>Gene Annotation</th>
+                <th>TE Annotation</th>
+                <th>Assembly Download</th>
+                <th>Gene Annotation Download</th>
+                <th>TE Annotation Download</th>
+                <th>Transcriptome Download</th>
+                <th>Proteome Download</th>
+                <th>Shiny App Link</th>
+                <th>BUSCO Evaluation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Biscutella_1</td>
+                <td>v1.0</td>
+                <td>1.2</td>
+                <td>Oxford Nanopore, PacBio</td>
+                <td>Hi-C, Oxford Nanopore</td>
+                <td>High</td>
+                <td>GFF3, 15,000 genes</td>
+                <td>35% repetitive</td>
+                <td><a href="https://example.com/genome">Download</a></td>
+                <td><a href="https://example.com/gene_annotation">Download</a></td>
+                <td><a href="https://example.com/te_annotation">Download</a></td>
+                <td><a href="https://example.com/transcriptome">Download</a></td>
+                <td><a href="https://example.com/proteome">Download</a></td>
+                <td><a href="https://example.com/shiny_app">Shiny App</a></td>
+                <td><a href="https://example.com/busco">BUSCO Result</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Population Genetics Data Table -->
+    <h2>Population Genetics Data</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Sample Name</th>
+                <th>Population Name</th>
+                <th>Genus</th>
+                <th>Species</th>
+                <th>Sequencing Technology</th>
+                <th>NCBI/EBI Accession Number</th>
+                <th>Map Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Biscutella_1</td>
+                <td>Pop1</td>
+                <td>Biscutella</td>
+                <td>laevigata</td>
+                <td>WGS</td>
+                <td>ERR1234567</td>
+                <td>Lat: 45.8, Lon: 6.9</td>
+            </tr>
+            <tr>
+                <td>Biscutella_2</td>
+                <td>Pop2</td>
+                <td>Biscutella</td>
+                <td>laevigata</td>
+                <td>ddRADseq</td>
+                <td>ERR1234568</td>
+                <td>Lat: 45.7, Lon: 7.0</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Gene Expression Data Table -->
+    <h2>Gene Expression Data</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Sample Name</th>
+                <th>Gene Expression Data</th>
+                <th>Expression Level (FPKM)</th>
+                <th>Sequencing Technology</th>
+                <th>Link to Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Biscutella_1</td>
+                <td>GeneA, GeneB</td>
+                <td>GeneA: 5.2, GeneB: 3.4</td>
+                <td>RNA-Seq</td>
+                <td><a href="https://example.com/expression_data">Download</a></td>
+            </tr>
+            <tr>
+                <td>Biscutella_2</td>
+                <td>GeneC, GeneD</td>
+                <td>GeneC: 2.8, GeneD: 4.6</td>
+                <td>RNA-Seq</td>
+                <td><a href="https://example.com/expression_data">Download</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Phenotype Data Table -->
+    <h2>Phenotype Data</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Sample Name</th>
+                <th>Trait</th>
+                <th>Phenotype Value</th>
+                <th>Environmental Conditions</th>
+                <th>Link to Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Biscutella_1</td>
+                <td>Flower Color</td>
+                <td>Red</td>
+                <td>Moderate Temperature, Well-Drained Soil</td>
+                <td><a href="https://example.com/phenotype_data">Download</a></td>
+            </tr>
+            <tr>
+                <td>Biscutella_2</td>
+                <td>Seed Size</td>
+                <td>Large</td>
+                <td>Cold Temperature, Dry Soil</td>
+                <td><a href="https://example.com/phenotype_data">Download</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Climate and Environmental Data Table -->
+    <h2>Climate and Environmental Data</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Sample Name</th>
+                <th>Temperature</th>
+                <th>Precipitation</th>
+                <th>Soil Type</th>
+                <th>Location</th>
+                <th>Link to Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Biscutella_1</td>
+                <td>15°C</td>
+                <td>800 mm/year</td>
+                <td>Loamy</td>
+                <td>Lat: 45.8, Lon: 6.9</td>
+                <td><a href="https://example.com/climate_data">Download</a></td>
+            </tr>
+            <tr>
+                <td>Biscutella_2</td>
+                <td>18°C</td>
+                <td>600 mm/year</td>
+                <td>Sandy</td>
+                <td>Lat: 45.7, Lon: 7.0</td>
+                <td><a href="https://example.com/climate_data">Download</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Molecular Markers / SNP Data Table -->
+    <h2>Molecular Markers / SNP Data</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Sample Name</th>
+                <th>Marker Type</th>
+                <th>SNP Count</th>
+                <th>Sequencing Technology</th>
+                <th>Link to Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Biscutella_1</td>
+                <td>SSR</td>
+                <td>500</td>
+                <td>ddRADseq</td>
+                <td><a href="https://example.com/snp_data">Download</a></td>
+            </tr>
+            <tr>
+                <td>Biscutella_2</td>
+                <td>SNP</td>
+                <td>2000</td>
+                <td>WGS</td>
+                <td><a href="https://example.com/snp_data">Download</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
