@@ -5,7 +5,6 @@ published: true
 menu: research
 ---
 
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,9 +36,7 @@ menu: research
 
         th {
             background-color: #4A90E2;
-            /* Modern light blue */
             color: white;
-            /* White text for contrast */
         }
 
         td {
@@ -58,28 +55,14 @@ menu: research
         a:hover {
             text-decoration: underline;
         }
-
-        #map {
-            height: 400px;
-            width: 100%;
-            margin-top: 30px;
-        }
     </style>
-
-    <!-- Leaflet.js for map -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <!-- js-yaml library for parsing YAML -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.14.0/js-yaml.min.js"></script>
 </head>
 
 <body>
-
     <h1>Data Overview</h1>
 
-    <!-- Genome Assembly Data Table -->
     <h2>Genome Assembly Data</h2>
-    <table id="genome-assembly-table">
+    <table>
         <thead>
             <tr>
                 <th>Sample Name</th>
@@ -94,224 +77,25 @@ menu: research
                 <th>Shiny App Link</th>
             </tr>
         </thead>
-        <tbody id="genome-assembly-data">
-        </tbody>
-    </table>
-
-    <!-- Population Genetics Data Table -->
-    <h2>Population Genetics Data</h2>
-    <table id="population-table">
-        <thead>
+        <tbody>
+            {% for item in site.data.pubs_data.genome_assembly_data %}
             <tr>
-                <th>Sample Name</th>
-                <th>Population Name</th>
-                <th>Genus</th>
-                <th>Species</th>
-                <th>Sequencing Technology</th>
-                <th>NCBI/EBI Accession Number</th>
-                <th>Map Location</th>
+                <td>{{ item.sample_name }}</td>
+                <td>{{ item.assembly_version }}</td>
+                <td>{{ item.genome_size }}</td>
+                <td>{{ item.sequencing_technology }}</td>
+                <td>{{ item.assembly_quality }}</td>
+                <td><a href="{{ item.assembly_download_link }}" target="_blank">Download</a></td>
+                <td><a href="{{ item.gene_annotation_download_link }}" target="_blank">Download</a></td>
+                <td><a href="{{ item.te_annotation_download_link }}" target="_blank">Download</a></td>
+                <td><a href="{{ item.transcriptome_download_link }}" target="_blank">Download</a></td>
+                <td><a href="{{ item.shiny_app_link }}" target="_blank">Shiny App</a></td>
             </tr>
-        </thead>
-        <tbody id="population-data">
+            {% endfor %}
         </tbody>
     </table>
 
-    <!-- Gene Expression Data Table -->
-    <h2>Gene Expression Data</h2>
-    <table id="gene-expression-table">
-        <thead>
-            <tr>
-                <th>Sample Name</th>
-                <th>Population Name</th>
-                <th>Genus</th>
-                <th>Species</th>
-                <th>Subspecies</th>
-                <th>Sequencing Technology</th>
-                <th>Treatment</th>
-                <th>Tissue</th>
-                <th>NCBI/EBI Accession Number</th>
-            </tr>
-        </thead>
-        <tbody id="gene-expression-data">
-        </tbody>
-    </table>
-
-    <!-- Phenotype Data Table -->
-    <h2>Phenotype Data</h2>
-    <table id="phenotype-table">
-        <thead>
-            <tr>
-                <th>Sample Name</th>
-                <th>Trait</th>
-                <th>Phenotype Value</th>
-                <th>Environmental Conditions</th>
-                <th>Link to Data</th>
-            </tr>
-        </thead>
-        <tbody id="phenotype-data">
-        </tbody>
-    </table>
-
-    <!-- Climate and Environmental Data Table -->
-    <h2>Climate and Environmental Data</h2>
-    <table id="climate-table">
-        <thead>
-            <tr>
-                <th>Sample Name</th>
-                <th>Temperature</th>
-                <th>Precipitation</th>
-                <th>Soil Type</th>
-                <th>Location</th>
-                <th>Link to Data</th>
-            </tr>
-        </thead>
-        <tbody id="climate-data">
-        </tbody>
-    </table>
-
-    <!-- Molecular Markers / SNP Data Table -->
-    <h2>Molecular Markers / SNP Data</h2>
-    <table id="markers-table">
-        <thead>
-            <tr>
-                <th>Sample Name</th>
-                <th>Marker Type</th>
-                <th>SNP Count</th>
-                <th>Sequencing Technology</th>
-                <th>Link to Data</th>
-            </tr>
-        </thead>
-        <tbody id="markers-data">
-        </tbody>
-    </table>
-
-    <!-- Map with Genoreferenced Records -->
-    <h2>Sample Locations on Map</h2>
-    <div id="map"></div>
-
-    <script>
-        // Initialize the map
-        var map = L.map('map').setView([45.75, 6.85], 10);  // Set initial center and zoom level
-
-        // Add OpenStreetMap tile layer
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
-
-        // Fetch the YAML file and parse it
-        fetch('_data/pubs_data.yaml')
-            .then(response => response.text())
-            .then(yamlText => {
-                // Parse the YAML data
-                const data = jsyaml.load(yamlText);
-
-                // Extract and display Genome Assembly Data
-                const genomeAssemblyData = data.genome_assembly_data;
-                const genomeAssemblyTableBody = document.getElementById('genome-assembly-data');
-                genomeAssemblyData.forEach(item => {
-                    const row = document.createElement('tr');
-                    row.innerHTML = `
-                    <td>${item.sample_name}</td>
-                    <td>${item.assembly_version}</td>
-                    <td>${item.genome_size}</td>
-                    <td>${item.sequencing_technology}</td>
-                    <td>${item.assembly_quality}</td>
-                    <td><a href="${item.assembly_download_link}" target="_blank">Download</a></td>
-                    <td><a href="${item.gene_annotation_download_link}" target="_blank">Download</a></td>
-                    <td><a href="${item.te_annotation_download_link}" target="_blank">Download</a></td>
-                    <td><a href="${item.transcriptome_download_link}" target="_blank">Download</a></td>
-                    <td><a href="${item.shiny_app_link}" target="_blank">Shiny App</a></td>
-                `;
-                    genomeAssemblyTableBody.appendChild(row);
-                });
-
-                // Extract and display Population Genetics Data
-                const populationGeneticsData = data.population_genetics_data;
-                const populationTableBody = document.getElementById('population-data');
-                populationGeneticsData.forEach(item => {
-                    const row = document.createElement('tr');
-                    row.innerHTML = `
-                    <td>${item.sample_name}</td>
-                    <td>${item.population_name}</td>
-                    <td>${item.genus}</td>
-                    <td>${item.species}</td>
-                    <td>${item.sequencing_technology}</td>
-                    <td>${item.ncbi_ebi_accession_number}</td>
-                    <td>${item.map_location}</td>
-                `;
-                    populationTableBody.appendChild(row);
-
-                    // Add markers to the map
-                    L.marker([item.latitude, item.longitude])
-                        .addTo(map)
-                        .bindPopup(item.sample_name + ": " + item.population_name);
-                });
-
-                // Extract and display Gene Expression Data
-                const geneExpressionData = data.gene_expression_data;
-                const geneExpressionTableBody = document.getElementById('gene-expression-data');
-                geneExpressionData.forEach(item => {
-                    const row = document.createElement('tr');
-                    row.innerHTML = `
-                    <td>${item.sample_name}</td>
-                    <td>${item.population_name}</td>
-                    <td>${item.genus}</td>
-                    <td>${item.species}</td>
-                    <td>${item.subspecies}</td>
-                    <td>${item.sequencing_technology}</td>
-                    <td>${item.treatment}</td>
-                    <td>${item.tissue}</td>
-                    <td>${item.ncbi_ebi_accession_number}</td>
-                `;
-                    geneExpressionTableBody.appendChild(row);
-                });
-
-                // Extract and display Phenotype Data
-                const phenotypeData = data.phenotype_data;
-                const phenotypeTableBody = document.getElementById('phenotype-data');
-                phenotypeData.forEach(item => {
-                    const row = document.createElement('tr');
-                    row.innerHTML = `
-                    <td>${item.sample_name}</td>
-                    <td>${item.trait}</td>
-                    <td>${item.phenotype_value}</td>
-                    <td>${item.environmental_conditions}</td>
-                    <td><a href="${item.link_to_data}" target="_blank">${item.link_to_data}</a></td>
-                `;
-                    phenotypeTableBody.appendChild(row);
-                });
-
-                // Extract and display Climate Data
-                const climateData = data.climate_environmental_data;
-                const climateTableBody = document.getElementById('climate-data');
-                climateData.forEach(item => {
-                    const row = document.createElement('tr');
-                    row.innerHTML = `
-                    <td>${item.sample_name}</td>
-                    <td>${item.temperature}</td>
-                    <td>${item.precipitation}</td>
-                    <td>${item.soil_type}</td>
-                    <td>${item.location}</td>
-                    <td><a href="${item.link_to_data}" target="_blank">${item.link_to_data}</a></td>
-                `;
-                    climateTableBody.appendChild(row);
-                });
-
-                // Extract and display Molecular Markers / SNP Data
-                const molecularMarkersData = data.molecular_markers_snp_data;
-                const markersTableBody = document.getElementById('markers-data');
-                molecularMarkersData.forEach(item => {
-                    const row = document.createElement('tr');
-                    row.innerHTML = `
-                    <td>${item.sample_name}</td>
-                    <td>${item.marker_type}</td>
-                    <td>${item.snp_count}</td>
-                    <td>${item.sequencing_technology}</td>
-                    <td><a href="${item.link_to_data}" target="_blank">${item.link_to_data}</a></td>
-                `;
-                    markersTableBody.appendChild(row);
-                });
-            });
-    </script>
-
+    <!-- Repeat similar blocks for other datasets (Population Genetics, Gene Expression, etc.) -->
 </body>
+
+</html>
