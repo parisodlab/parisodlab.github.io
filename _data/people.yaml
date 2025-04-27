@@ -43,7 +43,7 @@
 #===================#
 - first_name: Vaibhav
   last_name: Mallya
-  title: PhD Student
+  title: Student Phd thesis
   pub_names: ["Mallya V"]
   description: 
   photo: v_mallya.jpg
@@ -55,7 +55,7 @@
 #========================#
 - first_name: Etienne
   last_name: Diethelm
-  title: Masters Student
+  title: Student Master thesis
   pub_names: ["Diethelm E"]
   description: 
   photo: e_diethelm.jpg
