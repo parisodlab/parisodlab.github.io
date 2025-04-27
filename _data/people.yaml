@@ -36,28 +36,31 @@
 #================#
 # Research Staff #
 #================#
-- first_name: Sara
-  last_name: Hurschler
-  title: Research Assistant
-  photo: sara.jpg
 
   
 #===================#
-# Graduate Students #
+# PhD Students #
 #===================#
-
-- first_name: Vera
-  last_name: Ogi
-  title: Student PhD thesis co-supervised with Prof. Christelle Robert & Prof. Matthias Erb
-  pub_names: ["Ogi V", "V Ogi", "Ogi, Vera"]
-  description: I am interested in the evolution of plant defense mechanisms.
-  photo: vera_ogi.jpg
+- first_name: Vaibhav
+  last_name: Mallya
+  former: true
+  title: PhD Student
+  pub_names: ["Mallya V"]
+  description: 
+  photo: v_mallya.jpg
  
+
 
 #========================#
 # Undergraduates         #
 #========================#
-
+- first_name: Etienne
+  last_name: Diethelm
+  former: true
+  title: Masters Student
+  pub_names: ["Diethelm E"]
+  description: 
+  photo: e_diethelm.jpg
 
 #========================#
 # Former Members         #
@@ -140,4 +143,17 @@
   photo: kimberly_gilbert.jpg
   email:
   former: true
+- first_name: Sara
+  last_name: Hurschler
+  former: true
+  title: Research Assistant
+  photo: sara.jpg
+- first_name: Vera
+  last_name: Ogi
+  former: true
+  title: Student PhD thesis co-supervised with Prof. Christelle Robert & Prof. Matthias Erb
+  pub_names: ["Ogi V", "V Ogi", "Ogi, Vera"]
+  description: I am interested in the evolution of plant defense mechanisms.
+  photo: vera_ogi.jpg
+ 
 
