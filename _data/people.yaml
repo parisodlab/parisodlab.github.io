@@ -43,7 +43,6 @@
 #===================#
 - first_name: Vaibhav
   last_name: Mallya
-  former: true
   title: PhD Student
   pub_names: ["Mallya V"]
   description: 
@@ -56,7 +55,6 @@
 #========================#
 - first_name: Etienne
   last_name: Diethelm
-  former: true
   title: Masters Student
   pub_names: ["Diethelm E"]
   description: 
