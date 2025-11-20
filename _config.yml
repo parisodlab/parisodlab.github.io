@@ -4,7 +4,7 @@ title: Parisod Lab
 email: christian.parisod@unifr.ch
 description: "The Parisod Lab @ University of Fribourg"
 baseurl: ""
-url: "http://www.parisodlab.github.io"
+url: "https://parisodlab.github.io"
 permalink: /:categories/:title.html
 
 # RSS
